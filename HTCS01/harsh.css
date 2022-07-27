@@ -1,0 +1,77 @@
+@font-face {
+    font-family: novablack;
+    src: url(Black.otf);
+}
+@font-face {
+    font-family: novabold;
+    src: url(Bold.otf);
+}
+@font-face {
+    font-family: novaregular;
+    src: url(Regular.otf);
+}
+@font-face {
+    font-family: novaextrabold;
+    src: url(ExtraBold.otf);
+}
+.container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+ .section1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 14%;
+ }
+ .topleft{
+    padding-top: 185.45px;
+    padding-left: 176px;
+ }
+ .bottomleft{
+    padding-top:180px;
+    padding-left: 176px;
+ }
+ .topright{
+    padding-top: 185.45px;
+    padding-left:10%;
+ }
+ .bottomright{
+    padding-top:180px;
+    padding-left:10%;
+ }
+ .section2{
+    padding-top:45%;
+    padding-left:20%;
+ }
+ .font{
+    font-family:novaextrabold;
+    font-size: 18px;
+ }
+ .font1{
+    font-family: novaregular;
+    font-size: 18px;
+ }
+ .font2{
+    font-family: novablack;
+    font-size: 48px;
+ }
+ .font3{
+    font-family: novabold;
+    font-size: 48px;
+    color: #fff;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 48px;
+  margin-top: auto;
+ }
+ .font4{
+    color:#3787C8 ;
+    font-family: novabold;
+    font-size: 14px;
+ }
+ body{
+    background-image: url(i3.png);
+    background-repeat: no-repeat ;
+    background-position-x: 69.5%;
+    background-position-y: 53.8%;
+ }
