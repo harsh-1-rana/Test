@@ -1,0 +1,89 @@
+@font-face {
+    font-family: novablack;
+    src: url(Black.otf);
+}
+@font-face {
+    font-family: novabold;
+    src: url(Bold.otf);
+}
+@font-face {
+    font-family: novaregular;
+    src: url(Regular.otf);
+}
+@font-face {
+    font-family: novaextrabold;
+    src: url(ExtraBold.otf);
+}
+@font-face {
+    font-family: novaregularitalic;
+    src: url(RegularItalic.otf);
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+body{
+    background-color: #555F64;
+    background-image: url(i2.png);
+    background-repeat: no-repeat;
+    background-position-x: 12%;
+    background-position-y: 33.1%;
+}
+.sec1{
+    padding-left: 220px;
+    padding-top: 200.34px;
+    font-family: novabold;
+    color: #fff;
+  text-shadow: rgb(90, 83, 83) 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 48pt;
+  margin-top: auto;
+}
+.secA{
+    padding-top: 40.93px;
+}
+
+.sec2 {
+	padding-left: 0px;
+	font-family: novaregularitalic;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: #000 0px 0px 1px;
+	-webkit-font-smoothing: antialiased;
+	margin-top: auto;
+}
+.secB{
+    font-family: novabold;
+    font-size: 16px;
+    color: #fff;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+  margin-top: auto;
+}
+.secC{
+    padding-bottom: 120.07px;
+    font-size: 16px;
+    color: #fff;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+  margin-top: auto;
+}
+.secD{
+    margin-right: 41%;
+}
+.number{
+    font-family: novabold;
+    font-size: 16pt;
+    padding-top: 57.5px;
+    padding-right: 70%;
+}
+.line {
+	width: 252%;
+	color: orangered;
+	margin-left: 74%;
+	margin-top: -4%;
+}
+    
+.num1{
+    color: #FFFFFF80;
+}
