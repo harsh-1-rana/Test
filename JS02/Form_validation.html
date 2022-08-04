@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_validation</title>
+</head>
+<style>
+    .container-grid {
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-top: 15%;
+        border: solid 2px black;
+        padding: 3%;
+    }
+    
+    #uname {
+        margin-left: -27%;
+    }
+    
+    #uemail {
+        margin-left: -32%;
+    }
+    
+    #password {
+        margin-left: -28%;
+    }
+    
+    #cnfrm-password {
+        margin-left: -14%;
+    }
+</style>
+
+<body>
+    <center>
+        <div class="container-grid">
+            <h2>Register With Us</h2>
+            <form name="registration-form" onsubmit="return validateForm();" action="harsh.html">
+                <div>
+                    <span id="uname">Username</span><br>
+                    <input type="text" id="error1" name="username"><br>
+                    <label id="error_uname" style="color: red; visibility: hidden;">username must be atleast 3 characters</label>
+                </div>
+                <br>
+                <div>
+                    <span id="uemail">Email</span><br>
+                    <input type="email" id="error2" name="myemail"><br>
+                    <label id="error_uemail" style="color: red;visibility: hidden;">enter a valid email</label>
+                </div>
+                <br>
+                <div>
+                    <span id="password">Password</span><br>
+                    <input type="text" id="error3" name="password"><br>
+                    <label id="error_upassword" style="color: red;visibility: hidden;">password must be atleast 6 characters</label>
+                </div>
+                <br>
+                <div>
+                    <span id="cnfrm-password">Confirm Password</span><br>
+                    <input type="text" id="error4" name="cnfrm_pass"><br>
+                    <label id="error_confirm" style="color: red;visibility: hidden;">password does not match</label>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <input type="Submit" value="Submit">
+                </div>
+
+            </form>
+        </div>
+    </center>
+    <script>
+        function validateForm() {
+            let uname = document.forms["registration-form"]["username"].value;
+            let uemail = document.forms["registration-form"]["myemail"].value;
+            let password = document.forms["registration-form"]["password"].value;
+            let cnfrm = document.forms["registration-form"]["cnfrm_pass"].value;
+            if (uname.length < 3 || uemail.length == 0 || password.length < 5 || cnfrm.length < 5 || password != cnfrm) {
+                if (uname.length < 3) {
+                    document.getElementById("error1").style.border = "solid 1px red";
+                    document.getElementById("error_uname").style.visibility = "visible";
+
+                }
+                if (uemail.length === 0) {
+
+                    document.getElementById("error2").style.border = "solid 1px red";
+                    document.getElementById("error_uemail").style.visibility = "visible";
+
+
+                }
+                if (password.length < 5) {
+                    document.getElementById("error3").style.border = "solid 1px red";
+                    document.getElementById("error_upassword").style.visibility = "visible";
+
+                }
+                if (password != cnfrm) {
+                    document.getElementById("error4").style.border = "solid 1px red";
+                    document.getElementById("error_confirm").style.visibility = "visible";
+
+                }
+
+
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+
+</html>
