@@ -1,0 +1,137 @@
+@font-face {
+    font-family: novabold;
+    src: url(Bold.otf);
+}
+
+@font-face {
+    font-family: novaregular;
+    src: url(Regular.otf);
+}
+
+body {
+    font-family: novabold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 224, 224);
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    color: red;
+}
+
+.AmountContainer #balance {
+    font-size: 1.5em;
+}
+
+.bal {
+    margin-left: 48px;
+    font: novaregular;
+}
+
+#balance {
+    margin-left: 50px;
+    font: novaregular;
+}
+
+.cashflow {
+    display: flex;
+    box-shadow: 0px 1px 4px 1px rgba(199, 199, 199, 1);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.earning-container {
+    border-right: 1px solid #cccccc;
+    padding-right: 20px;
+}
+
+.expense-container {
+    padding-left: 20px;
+}
+
+#earning {
+    font-size: 1.3em;
+    color: green;
+}
+
+#expense {
+    font-size: 1.3em;
+    color: red;
+}
+
+.transaction-container {
+    margin-top: 40px;
+}
+
+#transaction {
+    list-style: none;
+    margin-left: -38px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 4px 1px rgba(199, 199, 199, 1);
+}
+
+.income-amount {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.expense-amount {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.history {
+    margin-left: 108px;
+    font-size: 1.1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+input {
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.end-container form button {
+    font-size: 1.5em;
+    color: white;
+    background-color: green;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.end-container {
+    margin-top: 40px;
+}
+
+.last {
+    color: red;
+    margin-bottom: 23px;
+    margin-top: 15px;
+}

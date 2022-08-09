@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPENSE TRACKER</title>
+    <link rel="stylesheet" href="harsh.css">
+</head>
+
+<body>
+    <div class="TarckerApp">
+        <!-- MAIN HEADING -->
+        <h1>EXPENSE TRACKER</h1>
+
+        <div class="AmountContainer">
+            <h2 class="bal">YOUR BALANCE</h2>
+            <div id="balance">$1500</div>
+        </div>
+        <!-- CASHFLOW CONTAINER -->
+        <div class="cashflow">
+            <div class="earning-container">
+                <h2>INCOME</h2>
+                <div id="earning">$800</div>
+            </div>
+            <div class="expense-container">
+                <h2>EXPENSE</h2>
+                <div id="expense">$100</div>
+            </div>
+        </div>
+        <!-- TRANSACTION HISTORY -->
+        <div class="transaction-container">
+            <h2 class="history">HISTORY</h2>
+
+            <ul id="transaction">
+
+            </ul>
+
+        </div>
+        <div class="end-container">
+            <h2>ADD NEW TRANSACTION</h2>
+            <form onsubmit="return false">
+                <span class="last">(click on add income to add the earnings and click on add expense to add expenses)</span>
+                <label for="name">TEXT</label>
+                <input id="name" type="text">
+                <label for="amount">AMOUNT</label>
+                <input id="amount" type="number"><br>
+                <button id="incomeBtn">ADD INCOME</button>
+                <button id="expenseBtn">ADD EXPENSE</button><br>
+
+            </form>
+        </div>
+    </div>
+    <script src="tracker.js"></script>
+</body>
+
+</html>
