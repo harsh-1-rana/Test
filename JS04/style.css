@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(214, 202, 202);
+    color: black;
+}
+
+h2 {
+    padding-left: 350px;
+    font-size: 30px;
+    border: none;
+}
+
+.Main-List {
+    padding: 30px;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    font-size: 30px;
+}
+
+#list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.Main-List li a {
+    float: right;
+    color: blue;
+    text-decoration: none;
+}
+
+#name {
+    width: 98%;
+    height: 38px;
+}
+
+.Main-List .text {
+    width: 86%;
+    height: 38px;
+    border: 2px solid teal;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.Main-List .btn {
+    width: 99%;
+    height: 38px;
+    margin-top: 15px;
+    font-size: 19px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#tasklist #dltbutton {
+    float: right;
+    color: red;
+    margin-right: 23px;
+}
+
+#tasklist #editbutton {
+    color: green;
+}
+
+#tasklist {
+    padding-right: 45px;
+}
+
+#editbutton {
+    float: right;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> To do list</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="Main-List">
+        <h2> To do List </h2>
+        <ul id="list"> </ul>
+        <input type="hidden" id="saveindex">
+        <input type="text" class="text" id="name">
+        <button class="btn" id="addbtn" value="add"> Add task </button> <br>
+        <button class="btn" id="savebtn" value="add" style="display:none;"> save task </button>
+        <span id="error"></span>
+        <div id="tasklist"></div>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
