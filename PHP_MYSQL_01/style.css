@@ -1,0 +1,60 @@
+.container1 {
+    background-color: black;
+    height: 81px;
+    border-radius: 11px;
+    color: white;
+    font-size: 34px;
+    padding-left: 173px;
+    padding-top: 13px;
+    background-image: url;
+    background-image: url(head_img.png);
+    background-repeat: no-repeat;
+    background-position-x: 43px;
+    background-position-y: 7px;
+    background-size: 91px;
+}
+
+.error {
+    color: red;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.body {
+    padding-left: 122px;
+    padding-right: 122px;
+}
+
+.container2 {
+    background-color: black;
+    height: 81px;
+    border-radius: 11px;
+    color: white;
+    font-size: 34px;
+    padding-left: 173px;
+    padding-top: 13px;
+    background-image: url;
+    background-image: url(head_img.png);
+    background-repeat: no-repeat;
+    background-position-x: 43px;
+    background-position-y: 7px;
+    background-size: 91px;
+}
+
+.image {
+    padding: 114px;
+    padding-top: 68px;
+    padding-left: 114px;
+    padding-top: 114px;
+    padding-left: 114px;
+    font-size: 36px;
+    padding-left: 518px;
+    padding-top: 243px;
+    background-image: url(welcome.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 860px;
+    background-position-x: 300px;
+    opacity: 0.8;
+    font-weight: 100;
+}
