@@ -1,0 +1,64 @@
+section {
+    margin-top: 10%;
+}
+
+.cardCustom {
+    border: 0.5px solid black;
+}
+
+.heading {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 15% 28% auto;
+}
+
+.headingTitle {
+    color: rgba(0, 255, 255, 0.714);
+    margin-top: 32px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.loginTitle {
+    margin-left: 500px;
+    margin-top: 50px;
+    color: rgba(0, 255, 255, 0.714);
+}
+
+.loginTitle:hover {
+    color: red;
+}
+
+.error {
+    color: red;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.img1 {
+    width: 90%;
+}
+
+.bottom {
+    background-color: black;
+    height: 90px;
+}
+
+.bottomTitle {
+    color: rgba(0, 255, 255, 0.714);
+    font-size: 20px;
+    margin-left: 14px;
+    padding-top: 10px;
+}
+
+.body_box {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img-fluid {
+    width: 540px;
+    margin-left: 90px;
+    margin-top: 20px;
+    height: 400px;
+}
