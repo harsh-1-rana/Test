@@ -1,0 +1,156 @@
+section {
+    margin-top: 10%;
+}
+
+.cardCustom {
+    border: 0.5px solid black;
+}
+
+.heading {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 15% 28% auto;
+}
+
+.headingTitle {
+    color: rgb(31, 152, 152);
+    margin-top: 32px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.loginTitle {
+    margin-left: 500px;
+    margin-top: 50px;
+    color: rgb(31, 152, 152);
+}
+
+.loginTitle:hover {
+    color: red;
+}
+
+.lastloginTitle {
+    margin-left: 500px;
+    margin-top: 50px;
+    color: rgb(31, 152, 152);
+}
+
+.lastloginTitle:hover {
+    color: greenyellow;
+}
+
+.dashLogout {
+    margin-left: 500px;
+    margin-top: 50px;
+    color: rgb(31, 152, 152);
+    cursor: pointer;
+}
+
+.dashLogout:hover {
+    color: red;
+}
+
+.error {
+    color: red;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.img1 {
+    width: 90%;
+}
+
+.bottom {
+    background-color: black;
+    height: 90px;
+}
+
+.bottomTitle {
+    color: rgb(31, 152, 152);
+    font-size: 20px;
+    margin-left: 14px;
+    padding-top: 10px;
+}
+
+.body_box {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img-fluid {
+    width: 700px;
+    margin-left: 150px;
+    margin-top: 20px;
+    height: 350px;
+}
+
+.submitButton {
+    background-color: rgb(31, 152, 152);
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 17px;
+    border: 3px solid whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 33px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    color: rgba(255, 255, 255, 0.775);
+}
+
+.indexBackg {
+    height: 420px;
+}
+
+.lasttest {
+    background-size: 35%;
+    opacity: 0.8;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: center;
+    background-position-y: 107.5%;
+}
+
+.dashboardtest {
+    background-size: 35%;
+    background-image: url(welcome.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: center;
+    background-position-y: 107.5%;
+}
+
+.container {
+    height: 460px;
+}
+
+.text {
+    text-align: center;
+    color: rgba(41, 93, 173, 0.88);
+    margin-top: 73px;
+    font-size: 35px;
+}
+
+.lasttext {
+    text-align: center;
+    color: rgba(41, 93, 173, 0.88);
+    margin-top: 73px;
+    font-size: 35px;
+}
+
+.dashboardText {
+    text-align: center;
+    color: rgba(41, 93, 173, 0.88);
+    margin-top: 11px;
+    font-size: 24px;
+}
+
+.dashboardTitle {
+    color: #89afcb;
+    margin-left: 500px;
+    margin-top: -23%;
+    font-weight: bold;
+}
