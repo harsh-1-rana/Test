@@ -1,0 +1,113 @@
+section {
+    margin-top: 10%;
+}
+
+.cardCustom {
+    border: 0.8px solid black;
+}
+
+.top {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 15% 28% auto;
+}
+
+.topHeading {
+    color: rgba(0, 255, 255, 0.714);
+    margin-top: 32px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.error {
+    color: red;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.logo {
+    width: 90%;
+}
+
+.bottom {
+    background-color: black;
+    height: 90px;
+}
+
+.bottomTitle {
+    color: rgba(0, 255, 255, 0.714);
+    font-size: 20px;
+    margin-left: 14px;
+    padding-top: 10px;
+}
+
+.body_box {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img-fluid {
+    width: 540px;
+    margin-left: 90px;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.submitButton {
+    margin-left: 30%;
+    background-color: rgb(31, 152, 152);
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 17px;
+    border: 3px solid whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 33px;
+    cursor: pointer;
+    margin-left: 1%;
+}
+
+.submitButton:hover {
+    color: rgba(255, 255, 255, 0.775);
+}
+
+.error {
+    color: orangered;
+    font-size: small;
+    font-weight: bold;
+}
+
+.bottom {
+    background-color: black;
+    height: 90px;
+}
+
+.bottomTitle {
+    color: rgb(31, 152, 152);
+    font-size: 20px;
+    margin-left: 14px;
+    padding-top: 10px;
+}
+
+.body_box {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img-fluid {
+    width: 700px;
+    margin-left: 150px;
+    margin-top: 20px;
+    height: 350px;
+}
+
+.container {
+    height: 460px;
+}
+
+.main {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50px;
+}
