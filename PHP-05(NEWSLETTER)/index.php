@@ -23,7 +23,7 @@
         <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
         <div class="card-body p-4 p-md-5    cardCustom">
         <div class="heading">
-            <img class="img1" src="img/header.php" alt="headerfile">
+            <img class="img1" src="img/header.png" alt="headerfile">
              <h1 class="headingTitle"><strong>DEV COMMUNITY</strong></h1>
              <h5 class="loginTitle">LOGIN</h5>
         </div>
@@ -55,7 +55,7 @@
                 <div class="col-md-6 mb-4 pb-2">
                 <div class="form-outline">
                     <input type="email" name="email" id="emailAddress" class="form-control form-control-lg" placeholder="EMAIL"  /><br>
-                    <span class="error"><?php echo $eerror;?><span>
+                    <span class="error"><?php echo $e_error;?><span>
                 </div>
                 </div>
               </div>
