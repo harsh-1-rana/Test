@@ -1,0 +1,25 @@
+uuid: 8d04d27b-9d0d-4f50-95d5-5b409f46db1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_us_video
+    - node.type.about_us
+  module:
+    - video_embed_field
+id: node.about_us.field_about_us_video
+field_name: field_about_us_video
+entity_type: node
+bundle: about_us
+label: About_us_video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: '0'
+    youtube_playlist: '0'
+    youtube: '0'
+field_type: video_embed_field

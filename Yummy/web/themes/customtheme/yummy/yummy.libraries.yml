@@ -1,0 +1,45 @@
+style:
+  version: Version
+  css:
+    theme:
+      css/header.css: {}
+      css/hero.css: {}
+      css/aboutus.css: {}
+      css/content.css: {}
+      css/testimonial.css: {}
+      css/webform.css: {}
+      css/stats.css: {}
+      css/whyus.css: {}
+      css/events.css: {}
+      css/chefs.css: {}
+      css/contact.css: {}
+      css/footer.css: {}
+      css/animate.css: {}
+      css/mob_responsive.css: {}
+      css/gallery.css: {}
+      css/tab_responsive.css: {}
+      https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css: {}
+  js:
+    js/slider1.js: {}
+    //cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js: { minified: true }
+    js/wow.min.js: { minified: true }
+    https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js: {}
+  dependencies:
+    - core/jquery
+
+
+
+slider:
+  css:
+    theme:
+      css/slick.css: {}
+      css/slick-theme.css: {}
+
+  js:
+    js/jquery-3.6.1.min.js: {}
+    js/slick.min.js: {}
+    js/galleryslider.js: {}
+
+
+  dependencies:
+    - core/jQuery

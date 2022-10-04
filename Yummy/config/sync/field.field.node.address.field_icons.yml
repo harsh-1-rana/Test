@@ -1,0 +1,21 @@
+uuid: d6d2b1bc-3176-415f-b2b7-8949995046d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icons
+    - node.type.address
+  module:
+    - fontawesome
+id: node.address.field_icons
+field_name: field_icons
+entity_type: node
+bundle: address
+label: icons
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

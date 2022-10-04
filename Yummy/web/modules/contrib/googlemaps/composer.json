@@ -1,0 +1,23 @@
+{
+    "name": "drupal/googlemaps",
+    "description": "Create configurable instances of a Google Maps JavaScript API",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.drupal.org/project/web_push_api",
+    "keywords": [
+        "module",
+        "location",
+        "google-maps"
+    ],
+    "authors": [
+        {
+            "name": "Sergii Bondarenko",
+            "homepage": "https://drupal.org/u/BR0kEN",
+            "email": "sb@firstvector.org"
+        }
+    ],
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/googlemaps",
+        "source": "https://git.drupalcode.org/project/googlemaps"
+    }
+}

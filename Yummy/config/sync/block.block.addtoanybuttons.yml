@@ -1,0 +1,20 @@
+uuid: f5cb6fb1-7d34-4682-9f57-1c56f894bd3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+  theme:
+    - yummy
+id: addtoanybuttons
+theme: yummy
+region: footer_fourth
+weight: -11
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: 'FOLLOW US'
+  label_display: visible
+  provider: addtoany
+visibility: {  }

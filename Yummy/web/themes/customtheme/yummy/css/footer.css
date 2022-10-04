@@ -1,0 +1,42 @@
+#block-addtoanybuttons {
+    border: none;
+    border-bottom: none;
+}
+
+#block-addtoanybuttons .content span a span {
+    background-color: #1f1f24 !important;
+    border: 1px solid;
+    border-radius: 17px;
+}
+
+#block-address {
+    border: none;
+    border-bottom: none;
+}
+
+.site-footer h2 {
+    font-size: 16px;
+    font-family: inter;
+    font-family: #ffffff;
+    border-bottom: none;
+}
+
+.site-footer p {
+    font-size: 13px;
+    font-family: opensans;
+    font-family: #ffffffb3;
+}
+
+#block-reservations {
+    border: none;
+    border-bottom: none;
+}
+
+#block-openinghours {
+    border: none;
+    border-bottom: none;
+}
+
+#block-ccopyrightyummyallrightsreserved {
+    text-align: center;
+}

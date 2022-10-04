@@ -1,0 +1,95 @@
+.map {
+    text-align: center;
+    padding: 5%;
+}
+
+#block-views-block-contact-block-1 h2 {
+    text-align: center;
+    font-size: 13px;
+    font-family: opensans;
+    color: #7f7f90;
+}
+
+#block-views-block-contact-information-block-1 {
+    padding: 0% 10% 0% 10%;
+}
+
+#block-views-block-contact-block-1 .content .view-header {
+    text-align: center;
+    color: #212529;
+    font-size: 48px;
+    font-family: amatic;
+}
+
+#block-views-block-contact-information-block-1 .content .view-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#block-views-block-contact-information-block-1 .content .views-row {
+    background-color: #eee;
+    margin: 2%;
+    padding: 5%;
+}
+
+.information_title {
+    font-size: 20px;
+    font-family: inter;
+    color: #6c757d;
+}
+
+.information_body {
+    font-size: 14px;
+    font-family: opensans;
+    color: #212529;
+}
+
+#block-webform {
+    box-shadow: 0 0 30px rgb(0 0 0 / 8%);
+    width: 70vw;
+    margin: auto;
+}
+
+#block-webform .content form {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+#block-webform .content .form-text {
+    width: 100%;
+}
+
+#block-webform input {
+    padding-left: 4%;
+}
+
+#edit-sujbect {
+    padding-left: 2% !important;
+}
+
+#edit-submit--2 {
+    padding: 15px 53px;
+    border-radius: 40px;
+    background: #ce1212;
+    color: white;
+    transition: 00.3s ease-in-out;
+}
+
+#edit-submit--2:hover {
+    background: red;
+}
+
+#edit-message--2 {
+    padding-left: 1.6%;
+    padding-top: 1%;
+}
+
+.contact_information {
+    display: flex;
+    gap: 5%;
+}
+
+.address_information {
+    text-align: left;
+}

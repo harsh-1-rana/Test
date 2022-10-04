@@ -1,0 +1,22 @@
+uuid: b46367df-2982-4750-a3a9-aaa418eb694a
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - yummy
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: yummy_messages
+theme: yummy
+region: header
+weight: -9
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

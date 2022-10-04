@@ -1,0 +1,25 @@
+uuid: 72aa8d3d-7bb3-4b9f-8b3f-2432a3112595
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero_block:074bcc64-f1b4-4ab4-ad66-347512d353d3'
+  module:
+    - block_content
+  theme:
+    - yummy
+id: thisisheroblock
+theme: yummy
+region: featured_top
+weight: -5
+provider: null
+plugin: 'block_content:074bcc64-f1b4-4ab4-ad66-347512d353d3'
+settings:
+  id: 'block_content:074bcc64-f1b4-4ab4-ad66-347512d353d3'
+  label: 'ENJOY YOUR HEALTHY DELICIOUS FOOD'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

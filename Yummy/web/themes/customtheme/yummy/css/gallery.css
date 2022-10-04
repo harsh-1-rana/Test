@@ -1,0 +1,34 @@
+#block-views-block-gallery-view-block-1 h2 {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'opensans';
+    color: #7f7f90;
+    padding-top: 5%;
+}
+
+#block-views-block-gallery-view-block-1 .content .view-header {
+    font-family: amatic;
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+
+.gallery {
+    background-color: #eeeeee;
+    margin-top: 4%;
+    padding-bottom: 3%;
+}
+
+.slick-arrow {
+    display: none;
+}
+
+.gallery-img {
+    margin: 4% 10% 4% 10%;
+}
+
+
+/* 
+.gallery-img .views-field-field-gallery-image img {
+    margin-left: 2%;
+} */

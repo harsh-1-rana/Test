@@ -1,0 +1,17 @@
+uuid: 0a6152a2-5aec-4ad5-b5ed-6abb3782873e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'webform image'
+type: webform_image
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

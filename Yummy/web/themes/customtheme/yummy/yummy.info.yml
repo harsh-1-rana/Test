@@ -1,0 +1,28 @@
+name: yummy
+type: theme
+descrition: This is my restaurant theme
+core_version_requirement: ^8 || ^9
+base theme: bartik
+
+regions:
+  header: Header
+  featured_top: Featured Top
+  featured_top1: Featured Top1
+  featured_top2: Featured Top2
+  stats: Stats
+  content: Content
+  testimonial: Testimonial
+  events: Events
+  chefs: Chefs
+  webform1: Webform1
+  webform_img: Webform image
+  gallery: Gallery
+  map: Map
+  footer_first: Footer first
+  footer_second: Footer second
+  footer_third: Footer third
+  footer_fourth: Footer fourth
+  footer_fifth: Footer fifth
+
+libraries:
+  - yummy/style

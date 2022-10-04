@@ -1,0 +1,25 @@
+uuid: 924126dc-312b-4b04-997d-df3c2484207e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e73e07d1-2715-47b6-b082-f5242aeba9a7'
+  module:
+    - block_content
+  theme:
+    - yummy
+id: ccopyrightyummy.allrightsreserved
+theme: yummy
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:e73e07d1-2715-47b6-b082-f5242aeba9a7'
+settings:
+  id: 'block_content:e73e07d1-2715-47b6-b082-f5242aeba9a7'
+  label: "© Copyright\_Slice Of Spice. All Rights Reserved"
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

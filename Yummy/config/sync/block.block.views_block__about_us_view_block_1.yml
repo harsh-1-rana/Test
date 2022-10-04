@@ -1,0 +1,24 @@
+uuid: 1f01d179-295e-48a4-a6af-8656e5720010
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.about_us_view
+  module:
+    - views
+  theme:
+    - yummy
+id: views_block__about_us_view_block_1
+theme: yummy
+region: featured_top1
+weight: 0
+provider: null
+plugin: 'views_block:about_us_view-block_1'
+settings:
+  id: 'views_block:about_us_view-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

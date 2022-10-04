@@ -1,0 +1,22 @@
+uuid: 05464a6b-8378-45af-9729-fd1cb64be0ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - yummy
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: yummy_help
+theme: yummy
+region: content
+weight: -9
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

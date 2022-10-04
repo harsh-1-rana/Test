@@ -1,0 +1,24 @@
+uuid: 8fabdbb2-44a0-445a-b2fd-04a9b09ed5cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.webform_view
+  module:
+    - views
+  theme:
+    - yummy
+id: views_block__webform_view_block_1
+theme: yummy
+region: webform1
+weight: 0
+provider: null
+plugin: 'views_block:webform_view-block_1'
+settings:
+  id: 'views_block:webform_view-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: daeb662c-0777-4b29-8e03-8b920407dfb2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fd9fe58b-d2de-44f0-9ecd-4229bc887081'
+  module:
+    - block_content
+  theme:
+    - yummy
+id: reservations
+theme: yummy
+region: footer_second
+weight: 0
+provider: null
+plugin: 'block_content:fd9fe58b-d2de-44f0-9ecd-4229bc887081'
+settings:
+  id: 'block_content:fd9fe58b-d2de-44f0-9ecd-4229bc887081'
+  label: Reservations
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: cd4fd894-6d37-4c1d-91c0-c5e792772af8
+langcode: en
+status: true
+dependencies: {  }
+id: about_us
+label: 'ABOUT US'
+revision: 0
+description: 'This block is to display about section of restaurant'

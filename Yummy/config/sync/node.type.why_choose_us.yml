@@ -1,0 +1,17 @@
+uuid: e4192863-db41-41be-ac95-28eabc7509c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Why choose us'
+type: why_choose_us
+description: 'This block is to describe why to choose us'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

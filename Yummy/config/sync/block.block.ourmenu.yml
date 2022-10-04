@@ -1,0 +1,25 @@
+uuid: f03234eb-83b2-4a52-ba67-c977c459aaec
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9593d818-4e8f-4b79-a50a-de0c75a383d0'
+  module:
+    - block_content
+  theme:
+    - yummy
+id: ourmenu
+theme: yummy
+region: content
+weight: -13
+provider: null
+plugin: 'block_content:9593d818-4e8f-4b79-a50a-de0c75a383d0'
+settings:
+  id: 'block_content:9593d818-4e8f-4b79-a50a-de0c75a383d0'
+  label: 'Our menu'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

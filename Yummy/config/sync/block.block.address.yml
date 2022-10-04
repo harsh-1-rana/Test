@@ -1,0 +1,25 @@
+uuid: b5cb092f-046b-4792-afd7-228d149eb3f3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0e4bc3ac-1246-40b5-bd10-d0081ac44990'
+  module:
+    - block_content
+  theme:
+    - yummy
+id: address
+theme: yummy
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:0e4bc3ac-1246-40b5-bd10-d0081ac44990'
+settings:
+  id: 'block_content:0e4bc3ac-1246-40b5-bd10-d0081ac44990'
+  label: Address
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

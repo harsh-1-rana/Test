@@ -1,0 +1,11 @@
+uuid: 31c10d9a-96a4-4f6a-8d7c-7c3cf9128e87
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.chefs
+id: node.chefs
+target_entity_type_id: node
+target_bundle: chefs
+default_langcode: site_default
+language_alterable: false

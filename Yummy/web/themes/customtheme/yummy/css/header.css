@@ -1,0 +1,97 @@
+@font-face {
+    font-family: inter;
+    src: url(sitename.ttf);
+}
+
+#header {
+    background-color: white;
+    background-image: none;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+
+.site-branding__name {
+    font-family: inter;
+    font-size: 28px;
+    /* width: 15vw; */
+}
+
+#block-yummy-main-menu {
+    width: 70%;
+    font-family: inter;
+    font-size: 18px;
+}
+
+#block-yummy-main-menu li a {
+    color: #7f7f90;
+    font-weight: bold;
+    transition: border-bottom 1s;
+}
+
+#block-yummy-main-menu li a:hover {
+    color: #000000;
+    border-bottom: 2px solid #CE1212;
+}
+
+#block-yummy-main-menu li {
+    margin: 0 20px;
+}
+
+#block-yummy-main-menu .content ul {
+    display: flex;
+    margin: 0 10vw;
+}
+
+#block-yummy-main-menu .content ul li:nth-child(1) a {
+    border-bottom: 2px solid #CE1212;
+    color: #000000;
+    font-weight: bold;
+}
+
+#block-yummy-branding a {
+    color: black;
+}
+
+#block-bookatable .content a {
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: #CE1212;
+    padding: 10px 20px;
+    margin-left: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+#block-bookatable .content a:hover {
+    background-color: red;
+}
+
+#header .clearfix {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* 
+#block-bookatable ul {
+    font-family: opensans;
+    font-size: 14px;
+}
+
+#block-mainnavigation .content ul li a {
+    color: #7f7f90;
+    font-size: 18px;
+}
+
+#header .section .layout-container div {
+    display: flex;
+    text-align: -webkit-left;
+}
+
+#block-mainnavigation {
+    width: 52vw;
+}
+
+#header .layout-container .clearfix .region .region-header {
+    width: 90vw;
+} */

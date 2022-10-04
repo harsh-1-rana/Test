@@ -1,0 +1,17 @@
+uuid: 2ff6e9a9-8dcb-4f27-90e1-39b7ea1fc126
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Food
+type: food
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

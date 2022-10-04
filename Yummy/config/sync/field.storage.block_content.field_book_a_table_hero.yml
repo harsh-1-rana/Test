@@ -1,0 +1,19 @@
+uuid: 52c32c62-2410-4aa7-aceb-45e23a23f2b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_book_a_table_hero
+field_name: field_book_a_table_hero
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

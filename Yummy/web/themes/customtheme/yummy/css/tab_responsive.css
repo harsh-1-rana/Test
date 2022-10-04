@@ -1,0 +1,91 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero_image {
+        position: absolute;
+        top: 9%;
+        left: 16%;
+        width: 70vw;
+    }
+    #block-yummy-main-menu {
+        display: none;
+    }
+    .hero_title {
+        font-size: 48px;
+        width: 95vw;
+        text-align: -webkit-match-parent;
+    }
+    .hero_container1 {
+        padding-top: 88%;
+    }
+    .hero_body {
+        width: 90vw;
+        text-align: center;
+    }
+    .hero_links {
+        width: 94vw;
+        justify-content: center;
+    }
+    .hero_link2 {
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+    .about_us_section {
+        display: block;
+        padding: 0% 4% 0% 4%;
+    }
+    .about_us_image {
+        width: 92vw;
+    }
+    #block-views-block-about-us-view-block-1 {
+        padding-bottom: 26%;
+    }
+    #block-views-block-why-us-block-1 {
+        display: none;
+    }
+    #views-exposed-form-menu-views-block-1 ul {
+        width: 96vw;
+    }
+    #block-views-block-menu-views-block-1 .content .view-content {
+        display: block;
+    }
+    .testimonial_container {
+        display: block;
+    }
+    .testimonial_container::before {
+        display: none;
+    }
+    .testimonials_image img {
+        height: 300px;
+    }
+    #block-views-block-chefs-block-1 .content .view-content {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    #block-views-block-chefs-block-1 .content .view-content .views-row {
+        width: 100%;
+    }
+    #block-views-block-webform-view-block-1 .content .view-content {
+        display: block;
+        padding: 0% 3% 0% 3%;
+    }
+    .chefs_container {
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    #block-views-block-chefs-block-1 {
+        padding-bottom: 8%;
+    }
+    .map {
+        padding: 0%;
+        padding-bottom: 3%;
+    }
+    #block-webform {
+        width: 79vw;
+    }
+    .about_us_image::before {
+        left: 6%;
+    }
+    .events_container::before {
+        width: 100%;
+        height: 100%;
+    }
+}

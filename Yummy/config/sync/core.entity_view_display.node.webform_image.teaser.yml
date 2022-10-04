@@ -1,0 +1,34 @@
+uuid: 75d6d342-ae79-49c5-abd7-68e7dd449473
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.webform_image.body
+    - field.field.node.webform_image.field_webform_image
+    - node.type.webform_image
+  module:
+    - text
+    - user
+id: node.webform_image.teaser
+targetEntityType: node
+bundle: webform_image
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_webform_image: true
+  langcode: true

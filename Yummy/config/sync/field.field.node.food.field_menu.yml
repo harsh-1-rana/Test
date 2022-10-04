@@ -1,0 +1,29 @@
+uuid: cdba4777-402c-47b3-a52b-b56269ebf93a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_menu
+    - node.type.food
+    - taxonomy.vocabulary.menu
+id: node.food.field_menu
+field_name: field_menu
+entity_type: node
+bundle: food
+label: menu
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      menu: menu
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

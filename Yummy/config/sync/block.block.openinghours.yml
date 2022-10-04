@@ -1,0 +1,25 @@
+uuid: 79710fa7-c016-4d98-81d5-8ecd0f364028
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ee10d6f8-2feb-4ee4-b884-fd6d9899a7b4'
+  module:
+    - block_content
+  theme:
+    - yummy
+id: openinghours
+theme: yummy
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:ee10d6f8-2feb-4ee4-b884-fd6d9899a7b4'
+settings:
+  id: 'block_content:ee10d6f8-2feb-4ee4-b884-fd6d9899a7b4'
+  label: 'Opening Hours'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
