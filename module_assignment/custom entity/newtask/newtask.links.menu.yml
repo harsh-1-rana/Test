@@ -1,0 +1,17 @@
+
+# Newtask entity menu items definition
+entity.newtask_entity.collection:
+  title: 'Newtask entity list'
+  route_name: entity.newtask_entity.collection
+  description: 'List Newtask entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+
+# Newtask entity type menu items definition
+entity.newtask_entity_type.collection:
+  title: 'Newtask entity type'
+  route_name: entity.newtask_entity_type.collection
+  description: 'List Newtask entity type (bundles)'
+  parent: system.admin_structure
+  weight: 99

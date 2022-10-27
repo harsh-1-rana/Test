@@ -1,0 +1,10 @@
+entity.newtask_entity.add_form:
+  route_name: entity.newtask_entity.add_page
+  title: 'Add Newtask entity'
+  appears_on:
+    - entity.newtask_entity.collection
+entity.newtask_entity_type.add_form:
+  route_name: entity.newtask_entity_type.add_form
+  title: 'Add Newtask entity type'
+  appears_on:
+    - entity.newtask_entity_type.collection

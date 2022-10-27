@@ -1,0 +1,33 @@
+add newtask entity entities:
+  title: 'Create new Newtask entity entities'
+
+administer newtask entity entities:
+  title: 'Administer Newtask entity entities'
+  description: 'Allow to access the administration form to configure Newtask entity entities.'
+  restrict access: true
+
+delete newtask entity entities:
+  title: 'Delete Newtask entity entities'
+
+edit newtask entity entities:
+  title: 'Edit Newtask entity entities'
+
+view published newtask entity entities:
+  title: 'View published Newtask entity entities'
+
+view unpublished newtask entity entities:
+  title: 'View unpublished Newtask entity entities'
+
+view all newtask entity revisions:
+  title: 'View all Newtask entity revisions'
+
+revert all newtask entity revisions:
+  title: 'Revert all Newtask entity revisions'
+  description: 'Role requires permission <em>view Newtask entity revisions</em> and <em>edit rights</em> for newtask entity entities in question or <em>administer newtask entity entities</em>.'
+
+delete all newtask entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Newtask entity revisions</em> and <em>delete rights</em> for newtask entity entities in question or <em>administer newtask entity entities</em>.'
+
+permission_callbacks:
+  - \Drupal\newtask\NewtaskEntityPermissions::generatePermissions

@@ -1,0 +1,7 @@
+newtask.mynewtask:
+  path: '/newtask/{id}'
+  defaults:
+    _controller: '\Drupal\newtask\Controller\NewTaskController::content'
+    _title: 'Simple form'
+  requirements:
+    _permission: 'access content' 
