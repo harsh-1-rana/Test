@@ -1,0 +1,92 @@
+<?php
+use Drupal\Core\Database\Database;
+ 
+/**
+ * Implements hook_schema().
+ */
+function customservice_schema(){
+    $schema['Heading'] = array(
+        'description' => 'The table for storing the title and body of main form.',
+        'fields' => array(
+            'id' => array(
+                'description' => 'The primary identifier for the form',
+                'type' => 'serial',
+                'not null' => TRUE,
+                'unsigned' => TRUE,
+            ),
+            'title' => array(
+                'description' => 'title of main form',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+            'description' => array(
+                'description' => 'description of main form.',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+            'fid' => array(
+                'description' => 'The primary identifier for the form',
+                'type' => 'int',
+                'not null' => TRUE,
+                'unsigned' => FALSE,
+                'default' => 0,
+            ),
+
+        ),
+        'primary key' => array('id'),
+    );
+
+    $schema['Cards'] = array(
+        'description' => 'The table for storing card details',
+        'fields' => array(
+            'cid' => array(
+                'description' => 'The primary identifier for the form',
+                'type' => 'serial',
+                'not null' => TRUE,
+                'unsigned' => TRUE,
+            ),
+            'title' => array(
+                'description' => 'title of main form',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+            'body' => array(
+                'description' => 'description of main form.',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+            'link' => array(
+                'description' => 'link.',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+            'image' => array(
+                'description' => 'image.',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => FALSE,
+                'default' => '',
+            ),
+            'fid' => array(
+                'description' => 'The primary identifier for the form',
+                'type' => 'int',
+                'not null' => TRUE,
+                'unsigned' => FALSE,
+                'default' => 0,
+            ),
+
+        ),
+        'primary key' => array('cid'),
+    );
+    return $schema;
+}

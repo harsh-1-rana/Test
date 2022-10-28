@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function customservice_theme($existing, $type, $theme, $path) {
+ 
+    return [
+      'returndata' => [
+        'variables' => ['cards'=> [], 'headers'=> [],  ],
+      ]
+    ];
+  }

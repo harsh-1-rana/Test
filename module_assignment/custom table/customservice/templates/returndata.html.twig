@@ -1,0 +1,78 @@
+<style>
+
+  .title{
+    font-size: 48px;
+    text-align: center;
+  }
+  .description{
+    font-size: 20px;
+    text-align: center;
+  }
+  .card_container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 4%;
+    margin-top: 7%;
+    text-align: center;
+  }
+  .name{
+    font-size: 26px;
+    text-align: center;
+  }
+  #page{
+    background: #eee !important;
+  }
+  #main-wrapper{
+    background: #eee !important;
+  }
+  .bio{
+    text-align: justify;
+    margin: 9% 7% 9% 7%;
+  }
+  .chef_container{
+    background: white;
+    padding-bottom:7%;
+    transition: 0.5s ease-in-out;
+  }
+
+  .chef_container:hover{
+    transform:scale(1.05);
+  }
+  .link{
+    border: none !important;
+  }
+  .site-footer{
+    margin-top: 4%;
+  }
+
+</style>
+
+
+
+<div class="main_container">
+
+{% for data in headers %}
+<div class="title"><h1>{{ data.title }}</h1></div>
+<div class="description"> {{ data.description }} </div>
+{% endfor %}
+
+
+<div class="card_container">
+
+
+{% for card in cards %}
+
+<div class="chef_container">
+    
+    <img class ="image" src="{{ file_url(card.image) }}">
+    <h4 class ="name">{{ card.title }}</h4>
+    <div class="bio"><h5>{{ card.body }}</h5></div>
+    <a class ="link" href="{{ card.link }}">Read More</a>
+
+</div>
+
+
+{% endfor %}
+
+</div>
+</div>

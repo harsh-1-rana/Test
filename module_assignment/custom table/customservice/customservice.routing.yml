@@ -1,0 +1,16 @@
+customservice.main_form:
+ path: '/customform'
+ defaults:
+   _title: 'Custom Services entry form'
+   _form: '\Drupal\customservice\Form\MainForm'
+ requirements:
+   _permission: 'access content'
+
+
+customservice.service_page:
+ path: '/custom_form/{id}'
+ defaults:
+   _title: ''
+   _controller: '\Drupal\customservice\Controller\CustomPage::fetchData'
+ requirements:
+   _permission: 'access content'

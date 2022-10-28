@@ -1,0 +1,5 @@
+name: Custom Services
+type: module
+description: 'Use of custom table to create form'
+package: Custom
+core_version_requirement: ^8 || ^9
