@@ -1,0 +1,126 @@
+@media only screen and (max-width: 767px) {
+    #block-views-block-webform-view-block-1 {
+        display: none;
+    }
+    #block-yummy-main-menu {
+        display: none;
+    }
+    .hero_container {
+        display: block;
+    }
+    .hero_title {
+        font-size: 48px;
+        width: 90vw;
+        text-align: center;
+    }
+    #header {
+        position: sticky;
+    }
+    .hero_image {
+        margin-top: 40%;
+        position: absolute;
+        top: 0;
+        left: 5%;
+        width: 90%;
+    }
+    .hero_links {
+        width: 96vw;
+        display: flex;
+        justify-content: center;
+    }
+    #block-views-block-why-us-block-1 {
+        display: none;
+    }
+    .hero_container1 {
+        width: 35%;
+        padding-top: 120%;
+    }
+    .hero_body {
+        width: 97vw;
+        padding-top: 10%;
+        text-align: center;
+    }
+    .about_us_section {
+        display: block;
+        padding: 0%;
+    }
+    .about_us_image {
+        width: 100%;
+    }
+    .about_us_image::before {
+        width: 78%;
+    }
+    .about_us_label {
+        padding: 5% 0% 0% 3%;
+        font-size: 16px;
+    }
+    .about_us_heading1 {
+        font-size: 15px;
+        padding-left: 5%;
+    }
+    .about_us_heading2 {
+        font-size: 15px;
+        padding-left: 5%;
+    }
+    .about_us_heading3 {
+        font-size: 15px;
+        padding-left: 5%;
+    }
+    .about_us_body {
+        font-size: 15px;
+        padding-left: 3%;
+    }
+    .about_us_video {
+        padding: 3%;
+    }
+    #block-yummy-content .view-content {
+        display: block;
+    }
+    #views-exposed-form-menu-views-block-1 ul {
+        padding-left: 0%;
+    }
+    #views-exposed-form-menu-views-block-1 input {
+        display: none;
+    }
+    #block-views-block-menu-views-block-1 .content .view-content {
+        display: block;
+    }
+    .testimonial_container {
+        display: flex;
+        flex-direction: column;
+    }
+    #block-views-block-testimonials-1-block-1 .content .view-content {
+        padding: 0%;
+    }
+    #block-views-block-chefs-block-1 .content .view-content {
+        display: block;
+    }
+    #block-views-block-chefs-block-1 .content .view-content .views-row {
+        width: 100%;
+    }
+    #block-views-block-contact-information-block-1 .content .view-content {
+        display: block;
+    }
+    #block-views-block-contact-information-block-1 {
+        padding: 0%;
+    }
+    #block-webform {
+        width: 100%;
+    }
+    .chefs_container {
+        margin-top: 0%;
+        margin-bottom: 6%;
+    }
+    #header .region-header {
+        display: flex !important;
+    }
+    .about_us_link {
+        display: none;
+    }
+    #views-exposed-form-menu-views-block-1 ul {
+        width: 92vw;
+    }
+    .about_us_image::before {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,47 @@
+.stats {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/stats-bg.jpg) center center;
+    height: 360px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stats .region {
+    margin-top: -1%;
+}
+
+#block-views-block-stats-view-block-1 .content .view-content {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.stats_label {
+    font-size: 16px;
+    font-family: inter;
+    color: #ffffff99;
+    font-weight: bold;
+}
+
+.stats_value {
+    font-size: 48px;
+    font-family: opensans;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.views-row .stats {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* .stats::before {
+    content: "";
+    color: black;
+    opacity: 0.8;
+    z-index: 1;
+    width: 100vw;
+} */

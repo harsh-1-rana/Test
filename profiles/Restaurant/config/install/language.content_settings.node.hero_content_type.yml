@@ -1,0 +1,11 @@
+uuid: 8fb68eac-1688-42df-9c7c-61e4755007b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hero_content_type
+id: node.hero_content_type
+target_entity_type_id: node
+target_bundle: hero_content_type
+default_langcode: site_default
+language_alterable: false

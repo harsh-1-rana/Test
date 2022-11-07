@@ -1,0 +1,25 @@
+uuid: 517a2e5b-ad89-405e-b1d5-842068ab9aa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.book-a-table
+  module:
+    - system
+  theme:
+    - yummy
+id: bookatable
+theme: yummy
+region: header
+weight: -11
+provider: null
+plugin: 'system_menu_block:book-a-table'
+settings:
+  id: 'system_menu_block:book-a-table'
+  label: 'Book a Table'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

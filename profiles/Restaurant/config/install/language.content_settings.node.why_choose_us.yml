@@ -1,0 +1,11 @@
+uuid: ca287594-4422-44b0-b530-1eff07935adc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.why_choose_us
+id: node.why_choose_us
+target_entity_type_id: node
+target_bundle: why_choose_us
+default_langcode: site_default
+language_alterable: false

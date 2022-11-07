@@ -1,0 +1,17 @@
+uuid: b9f21285-43a6-43d8-a098-4d9b62c78992
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Hero_content_type
+type: hero_content_type
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

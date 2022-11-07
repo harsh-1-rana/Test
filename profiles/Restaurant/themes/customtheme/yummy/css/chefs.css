@@ -1,0 +1,92 @@
+#block-views-block-chefs-block-1 .content .view-content {
+    display: flex;
+    justify-content: center;
+    /* gap: 1%; */
+}
+
+.chefs {
+    background-color: #eee;
+    margin-top: 5%;
+}
+
+#block-views-block-chefs-block-1 .content .view-content .views-row {
+    width: 24%;
+    text-align: center;
+}
+
+.chefs_container {
+    background-color: white;
+    margin: 3%;
+    margin-top: 25%;
+    margin-bottom: 14%;
+    transition: 0.3s ease-in-out;
+}
+
+.chefs_container:hover {
+    transform: scale(1.05);
+}
+
+.chef_name {
+    font-size: 20px;
+    font-family: inter;
+    padding-top: 10%;
+}
+
+.chef_category {
+    font-size: 14px;
+    font-family: opensans;
+    color: #21252966;
+}
+
+.chef_content_body {
+    font-size: 14px;
+    font-family: opensans;
+    color: #212529b3;
+    padding: 5% 10% 4% 10%;
+}
+
+.chef_image {
+    position: relative;
+}
+
+.chef_image::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/team-shape.svg) no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+#block-views-block-chefs-block-1 h2 {
+    font-size: 13px;
+    font-family: opensans;
+    color: #7f7f90;
+    text-align: center;
+    padding-top: 4%;
+}
+
+#block-views-block-chefs-block-1 .content .view-header {
+    font-size: 48px;
+    font-family: amatic;
+    color: #212529;
+    text-align: center;
+}
+
+.add_to_any span a span {
+    background: black !important;
+    border-radius: 20px !important;
+}
+
+.add_to_any {
+    display: none;
+}
+
+
+/* 
+.chefs_container:hover .add_to_any {
+    display: block;
+} */

@@ -1,0 +1,24 @@
+uuid: 28ef7f2d-d45d-451b-a9a6-da6ffc480115
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.gallery_view
+  module:
+    - views
+  theme:
+    - yummy
+id: views_block__gallery_view_block_1
+theme: yummy
+region: gallery
+weight: 0
+provider: null
+plugin: 'views_block:gallery_view-block_1'
+settings:
+  id: 'views_block:gallery_view-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

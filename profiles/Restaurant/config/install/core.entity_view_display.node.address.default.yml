@@ -1,0 +1,40 @@
+uuid: 690f4d1f-fb16-4b2e-9903-6b3c1204c4d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.address.body
+    - field.field.node.address.field_icons
+    - node.type.address
+  module:
+    - fontawesome
+    - text
+    - user
+id: node.address.default
+targetEntityType: node
+bundle: address
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_icons:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

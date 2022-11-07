@@ -1,0 +1,23 @@
+uuid: d8d75765-c39b-423e-a639-52c331997b1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_block
+    - field.storage.block_content.field_watch_video
+  module:
+    - link
+id: block_content.hero_block.field_watch_video
+field_name: field_watch_video
+entity_type: block_content
+bundle: hero_block
+label: 'Watch Video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

@@ -1,0 +1,38 @@
+uuid: 42348c3f-f59c-4c79-9abc-70bc76bd1b29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_us_img
+    - node.type.about_us
+  module:
+    - image
+id: node.about_us.field_about_us_img
+field_name: field_about_us_img
+entity_type: node
+bundle: about_us
+label: img
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: image-aboutus
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '2 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

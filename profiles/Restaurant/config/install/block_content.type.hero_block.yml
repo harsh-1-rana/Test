@@ -1,0 +1,8 @@
+uuid: ee853f4b-516e-4c7f-aa06-4a78c1c936bb
+langcode: en
+status: true
+dependencies: {  }
+id: hero_block
+label: 'Hero Block'
+revision: 0
+description: 'This block is to demonstrate our hero region'

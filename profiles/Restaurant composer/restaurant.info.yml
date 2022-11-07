@@ -1,0 +1,119 @@
+name: Restaurant
+type: profile
+description: 'Install with commonly used features pre-configured.'
+core_version_requirement: ^8 || ^9
+distribution:
+  name: Restaurant
+
+# Modules to install to support the file
+install:
+  - addtoany
+  - admin_toolbar
+  - admin_toolbar_links_access_filter
+  - admin_toolbar_search
+  - admin_toolbar_tools
+  - automated_cron
+  - better_exposed_filters
+  - big_pipe
+  - blazy
+  - blazy_ui
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - comment
+  - config
+  - contact
+  - contextual
+  - datetime
+  - dblog
+  - devel
+  - devel_generate
+  - dynamic_page_cache
+  - editor
+  - field
+  - field_ui
+  - file
+  - filter
+  - flexslider
+  - flexslider_example
+  - flexslider_fields
+  - flexslider_views
+  - fontawesome
+  - googlemaps
+  - help
+  - history
+  - image
+  - jcarousel
+  - jquery_carousel
+  - jquery_ui
+  - jquery_ui_datepicker
+  - jquery_ui_slider
+  - jquery_ui_touch_punch
+  - language
+  - libraries
+  - link
+  - media
+  - menu_link_content
+  - menu_ui
+  - mysql
+  - node
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - rdf
+  - scroll_top_button
+  - search
+  - shortcut
+  - simple_gmap
+  - slick
+  - slick_carousel_slider
+  - slick_devel
+  - slick_extras
+  - slick_ui
+  - slick_views
+  - superfish
+  - system
+  - taxonomy
+  - telephone
+  - text
+  - token
+  - toolbar
+  - tour
+  - update
+  - user
+  - video_embed_field
+  - views_ui
+  - webform
+  - webform_access
+  - webform_attachment
+  - webform_devel
+  - webform_image_select
+  - webform_node
+  - webform_options_custom
+  - webform_options_limit
+  - webform_scheduled_email
+  - webform_share
+  - webform_shortcuts
+  - webform_submission_export_import
+  - webform_submission_log
+  - webform_templates
+  - webform_ui
+  - pathauto
+  - webform_bootstrap
+  - views
+
+# Required modules
+# Note that any dependencies of the modules listed here will be installed automatically.
+dependencies:
+  - node
+  - block
+  - views
+
+# List any themes that should be installed as part of the profile installation.
+# Note that this will not set any theme as the default theme.
+themes:
+  - bartik
+  - seven
+  - yummy

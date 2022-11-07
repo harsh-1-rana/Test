@@ -1,0 +1,40 @@
+uuid: 92cef614-47c4-473a-8d7d-a93d130ab1f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.stats.body
+    - field.field.node.stats.field_value
+    - node.type.stats
+  module:
+    - text
+    - user
+id: node.stats.default
+targetEntityType: node
+bundle: stats
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_value:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

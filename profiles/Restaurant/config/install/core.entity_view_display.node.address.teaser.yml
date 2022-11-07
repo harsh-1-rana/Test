@@ -1,0 +1,34 @@
+uuid: 818b2b9c-fd30-4655-8413-c24cb3186b28
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.address.body
+    - field.field.node.address.field_icons
+    - node.type.address
+  module:
+    - text
+    - user
+id: node.address.teaser
+targetEntityType: node
+bundle: address
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_icons: true
+  langcode: true

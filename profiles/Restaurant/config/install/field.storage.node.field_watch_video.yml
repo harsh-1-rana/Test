@@ -1,0 +1,19 @@
+uuid: 2b5835a3-26ea-433f-b3f4-a133191363c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_watch_video
+field_name: field_watch_video
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

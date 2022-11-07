@@ -1,0 +1,19 @@
+uuid: 33c7f842-e84b-46ee-b33d-6719c79697dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category
+    - node.type.chefs
+id: node.chefs.field_category
+field_name: field_category
+entity_type: node
+bundle: chefs
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,11 @@
+uuid: 92e47f86-c0ab-4057-8f9f-1c94a6b7cbea
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.webform_image
+id: node.webform_image
+target_entity_type_id: node
+target_bundle: webform_image
+default_langcode: site_default
+language_alterable: false

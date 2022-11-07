@@ -1,0 +1,24 @@
+uuid: cfbc3140-acb7-45a9-97c2-7bc93e8a7209
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.contact_information
+  module:
+    - views
+  theme:
+    - yummy
+id: views_block__contact_information_block_1
+theme: yummy
+region: map
+weight: -10
+provider: null
+plugin: 'views_block:contact_information-block_1'
+settings:
+  id: 'views_block:contact_information-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

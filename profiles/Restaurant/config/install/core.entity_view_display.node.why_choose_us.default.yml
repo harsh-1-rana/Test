@@ -1,0 +1,54 @@
+uuid: 731f39ed-0380-4061-9923-1b407d43d561
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.why_choose_us.body
+    - field.field.node.why_choose_us.field_icon
+    - field.field.node.why_choose_us.field_learn_more
+    - node.type.why_choose_us
+  module:
+    - fontawesome
+    - link
+    - text
+    - user
+id: node.why_choose_us.default
+targetEntityType: node
+bundle: why_choose_us
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_icon:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_learn_more:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

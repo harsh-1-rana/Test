@@ -1,0 +1,25 @@
+uuid: 9dc3f711-a23f-44e6-85fa-261a07bed3c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact_us
+  module:
+    - webform
+  theme:
+    - yummy
+id: webform
+theme: yummy
+region: map
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  label_display: '0'
+  provider: webform
+  webform_id: contact_us
+  default_data: ''
+  redirect: false
+visibility: {  }

@@ -1,0 +1,44 @@
+uuid: 0b9f7bfe-c421-49b4-83dc-4ef630ad6737
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.about_us.body
+    - field.field.node.about_us.field_about_us_img
+    - field.field.node.about_us.field_about_us_video
+    - field.field.node.about_us.field_heading1
+    - field.field.node.about_us.field_heading2
+    - field.field.node.about_us.field_heading3
+    - field.field.node.about_us.field_link
+    - node.type.about_us
+  module:
+    - text
+    - user
+id: node.about_us.teaser
+targetEntityType: node
+bundle: about_us
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_about_us_img: true
+  field_about_us_video: true
+  field_heading1: true
+  field_heading2: true
+  field_heading3: true
+  field_link: true
+  langcode: true

@@ -1,0 +1,56 @@
+uuid: 5ba7812c-190c-407e-b6f3-2de97894b768
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.chefs.body
+    - field.field.node.chefs.field_category
+    - field.field.node.chefs.field_chef_image
+    - node.type.chefs
+  module:
+    - image
+    - text
+    - user
+id: node.chefs.default
+targetEntityType: node
+bundle: chefs
+mode: default
+content:
+  addtoany:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_category:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_chef_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

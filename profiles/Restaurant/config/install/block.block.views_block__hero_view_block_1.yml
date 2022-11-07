@@ -1,0 +1,24 @@
+uuid: 3c439d42-dfdb-4423-98b3-7acedfd6d663
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.hero_view
+  module:
+    - views
+  theme:
+    - yummy
+id: views_block__hero_view_block_1
+theme: yummy
+region: featured_top
+weight: 0
+provider: null
+plugin: 'views_block:hero_view-block_1'
+settings:
+  id: 'views_block:hero_view-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

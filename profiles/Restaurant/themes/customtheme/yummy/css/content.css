@@ -1,0 +1,134 @@
+#block-views-block-menu-views-block-1 .content .view-content {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+#views-exposed-form-menu-views-block-1 ul {
+    display: flex;
+    gap: 3%;
+    padding-left: 0%;
+    width: 66vw;
+    justify-content: center;
+}
+
+#views-exposed-form-menu-views-block-1 ul li:nth-child(1) {
+    display: none;
+}
+
+#block-views-block-menu-views-block-1 .content .view-header {
+    text-align: center;
+}
+
+#views-exposed-form-menu-views-block-1 ul li {
+    list-style: none;
+    font-size: 18px;
+    font-family: inter;
+}
+
+#views-exposed-form-menu-views-block-1 ul a {
+    border: none;
+    color: black;
+}
+
+#views-exposed-form-menu-views-block-1 label {
+    display: none;
+}
+
+#block-ourmenu {
+    text-align: center;
+    margin-top: 6%;
+}
+
+#block-ourmenu h2 {
+    color: #7f7f90;
+    font-size: 13px;
+    font-style: opensans;
+}
+
+#block-ourmenu .content {
+    font-size: 48px;
+    font-family: amatic;
+}
+
+#main {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#block-yummy-content {
+    display: none;
+}
+
+
+/* #block-ourmenu .content div p {
+    margin: auto;
+} */
+
+#block-views-block-menu-view-block-1 .view-content {
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    font-size: 18px;
+    font-family: inter;
+}
+
+#block-views-block-menu-view-block-1 .view-content a {
+    color: #37373f;
+}
+
+#block-yummy-content h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+    font-family: inter;
+    color: #ce1212;
+}
+
+#block-menu h2 {
+    text-align: center;
+    font-size: 14px;
+    font-family: opensans;
+    color: #676775;
+}
+
+#views-exposed-form-menu-views-block-1 div .js-form-item {
+    width: 100%;
+}
+
+
+/* 
+#block-views-block-menu-view-block-1 .view-content .field-content a {
+    border: none;
+} */
+
+.food_label {
+    font-size: 22px;
+    font-family: inter;
+}
+
+.food_varities {
+    font-size: 16px;
+    font-family: inter;
+    font-weight: lighter;
+    color: #8d8d9b;
+}
+
+.food_price {
+    font-size: 24px;
+    font-family: opensans;
+    color: #ce1212;
+    font-weight: bolder;
+}
+
+.our_menu {
+    margin-bottom: 20%;
+}
+
+.food_image a {
+    border: none;
+}
+
+.food_image a img {
+    width: 85%;
+}

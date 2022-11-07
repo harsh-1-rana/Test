@@ -1,0 +1,15 @@
+name: 'Google Maps'
+description: 'Create configurable instances of a Google Maps JavaScript API'
+package: Services
+type: module
+core: 8.x
+php: 7.3
+
+core_version_requirement: ^8 || ^9
+
+configure: entity.googlemap.collection
+
+# Information added by Drupal.org packaging script on 2020-05-23
+version: '8.x-1.0'
+project: 'googlemaps'
+datestamp: 1590261219

@@ -1,0 +1,67 @@
+uuid: 9c4acd72-264b-42d1-bf17-e71349fc3267
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.food.body
+    - field.field.node.food.field_food_image
+    - field.field.node.food.field_menu
+    - field.field.node.food.field_price
+    - field.field.node.food.field_varities
+    - image.style.image_300_300
+    - node.type.food
+  module:
+    - image
+    - text
+    - user
+id: node.food.default
+targetEntityType: node
+bundle: food
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_food_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: image_300_300
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_menu:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_price:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_varities:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  addtoany: true
+  langcode: true
+  links: true

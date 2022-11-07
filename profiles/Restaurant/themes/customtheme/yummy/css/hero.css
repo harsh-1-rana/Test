@@ -1,0 +1,99 @@
+@font-face {
+    font-family: amatic;
+    src: url(amatic.ttf);
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(opensans.ttf);
+}
+
+.hero_links {
+    display: flex;
+    margin-top: 10%;
+}
+
+.hero_link1 {
+    background-color: #CE1212;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: 'opensans';
+    transition: 0.3s ease-in-out;
+}
+
+.hero_link1:hover {
+    background-color: red;
+}
+
+.hero_link2 {
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.hero_link2 div a:hover {
+    color: #ce1212;
+}
+
+.hero_link1 div a {
+    color: white;
+    border: none;
+}
+
+.hero_link2 div a {
+    color: black;
+    border: none;
+}
+
+.svg_icon svg {
+    color: red;
+    height: 75%;
+    width: auto;
+    padding-left: 26px;
+    padding-top: 10%;
+}
+
+.hero_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_container1 {
+    width: 35%;
+}
+
+.hero_image {
+    margin-top: 10%;
+}
+
+.hero_title {
+    font-family: amatic;
+    font-size: 64px;
+    text-align: left;
+}
+
+.hero_container2 {
+    margin-top: 7%;
+}
+
+.hero_body {
+    font-family: opensans;
+    font-size: 16px;
+    text-align: left;
+}
+
+#pageload {
+    background: white url(mytheme.gif) no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+}
+
+.hero-svg-link {
+    border: none;
+}
+
+.hero-svg-link:hover {
+    border: none;
+}
