@@ -1,27 +1,38 @@
 let Articleslist = new Array();
-
-
-
-function post(){
-    let name = document.getElementById("name").value;
-    let title = document.getElementById("title").value;
-    let body = document.getElementById("body").value;
+// Articleslist = data;
+console.log(Articleslist);
+function post() {
     let articles = {
-        'name': name,
-        'title': title,
-        'body': body
+        'namee': namee.value,
+        'title': title.value,
+        'body': body.value,
     }
-    Articleslist.push(articles);
-    
-    document.getElementById("posts").innerHTML +=
-    // `<div class="flex_box_child"> <p>  ${name} , <span>  ${title} , </span> <span> ${body} , </span></p></div>
-    `<div class="flex_box_child"><div> ${name} </div> <div>  ${title}  </div> <div> ${body}  </div></div>
-
-    <span class="options">
-      <i onClick="" class="fas fa-edit" id="edit"></zi>
-      <i onClick="" class="fas fa-trash-alt" id="delete"></i>
-    </span>
-  </div>`;
-
-    return false;
+    if (namee.value != '' && edit== false) {
+        Articleslist.push(articles);
+    }
+    if(edit==true){
+        edit=false;
+    }
+    console.log(Articleslist);
+    document.getElementById("posts").innerHTML = "";
+    for (let i = 0; i < Articleslist.length; i++) {
+        document.getElementById("posts").innerHTML +=
+        `<div class="article_container">
+          <div class="flex_box_child">
+           <div class="author_name">${Articleslist[i].namee}</div> 
+           <div class="article_title">${Articleslist[i].title}</div> 
+           <div class="article_body">${Articleslist[i].body}</div>
+           <span class="options">
+           <i onclick="editarticle(${i})" class="fas fa-edit" id="edit"></i>
+           <i onclick="deletearticle(${i})" class="fas fa-trash-alt" id="delete"></i>
+           </span>
+          </div>
+          <div class="article_image"><img src="https://washington.org/themes/custom/washington/images/pic-3.png" alt="">
+          </div>
+        </div>`;
+    }
+    namee.value = "";
+    title.value = "";
+    body.value = "";
+    // return false;
 }

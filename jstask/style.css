@@ -1,5 +1,5 @@
 .body{
-  height: 100px;
+  height: 50px;
   width: 600px;
   margin-bottom: 2%;
 }
@@ -8,13 +8,9 @@
     width: 600px;
     margin: 2% 0% 2% 0%;
 }
-.name{
+.namee{
     height: 50px;
     width: 600px;
-}
-.articlewrapper{
-   display: flex;
-   justify-content: space-evenly;
 }
 input{
     font-size: 20px;
@@ -22,12 +18,51 @@ input{
 }
 button{
     height: 50px;
-    width: 100px;
-    background-color: bisque;
+    width: 600px;
+    background-color: blue;
+    color: white;
 }
 .left h2{
     text-align: center;
+    color: red;
 }
-.button{
+.left{
     text-align: center;
+    margin: auto;
+    margin-top: 8%;
+}
+.right{
+    text-align: center;
+    margin-top: 5%;
+}
+#create_form p{
+    display: none;
+    color: red;
+}
+.article_container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 400px;
+    margin: 1%;
+}
+.article_image img{
+    height: 400px;
+}
+.flex_box_child{
+    padding-top: 6%;
+}
+.author_name{
+    font-size: 20px;
+}
+.article_title{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.article_body{
+    font-size: 18px;
+    margin-bottom: 10%;
 }

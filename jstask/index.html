@@ -2,55 +2,43 @@
 <html>
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title> ARTICLES </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title> ARTICLES </title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
 </head>
 
 <body>
-    <div class="articlewrapper">
-      <div class="left"> 
-       <form action="#" onsubmit="return post()" method="post">
+  <div class="articlewrapper">
+    <div class="left">
+      <form id="create_form">
         <h2> ARTICLES </h2>
-        <div><input type="text" class="name" id="name" placeholder="Author Name"></div>
-        <div id="msg1"></div>
+        <div><input type="text" class="namee" id="namee" placeholder="Author Name"></div>
+        <p id="nameerr">Name must not be empty</p>
         <div><input type="text" class="title" id="title" placeholder="Article title"></div>
-        <div id="msg2"></div>
+        <p id="titleerr">Title must not be empty</p>
         <div><input type="body" class="body" id="body" placeholder="Add Article Body"></div>
-        <div id="msg3"></div>
-        <div class="button"><button type="submit" class="btn" id="addbtn" value="Add Article"> Add Article </button> </div>
-       </form>
-      </div>
-       
-
-       <div class="right">
-        <h3>Your Articles</h3>
-        <div id="posts">
-            <div>
-                <p>Article 1</p>
-                <span class="options">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-trash-alt"></i>
-                </span>
-              </div>
-            
-              <div >
-                <p>Article 2</p>
-                <span class="options">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-trash-alt"></i>
-                </span>
-              </div>
-        </div>
-       </div>
+        <p id="bodyerr">Body must not be empty</p>
+        <div class="button"><button type="submit" class="btn" id="addbtn" value="Add Article"> Add Article
+          </button> </div>
+      </form>
     </div>
-    <script src='script.js'></script>
-    <script src='api.js'></script>
+    <div class="right">
+      <h1>Your Articles</h1>
+      <div id="posts">
+
+      </div>
+    </div>
+  </div>
+  <script src='script.js'></script>
+  <script src="api.js"></script>
+  <script src="validate.js"></script>
+  <script src="delete.js"></script>
+  <script src="update.js"></script>
 </body>
 
 </html>
