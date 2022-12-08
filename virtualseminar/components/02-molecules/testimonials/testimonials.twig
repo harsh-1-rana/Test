@@ -1,0 +1,37 @@
+{% set base_class = 'testimonials_container' %}
+
+{% block testimonialssec %}
+<div class="my_testimonials">
+  <div {{ bem(base_class) }}>
+    <div {{ bem('testimonial_main_heading', [], base_class) }}>
+      <div class="testimonial_heading">
+        {% include '@atoms/text/headings/_heading.twig' with {
+          heading: testimonials_mainheading,
+          heading_level: testimonials_mainheading_level
+        } %}
+      </div>
+    </div>
+    <div {{ bem('testimonials_content_wrapper', [], base_class) }}>
+      {% include '@atoms/text/text/01-paragraph.twig' with {
+        paragraph_content: testimonials_paragraph_content
+      } %}
+    </div>
+    <div {{ bem('testimonials_subheading1', [], base_class) }}>
+      <div class="testimonials_subheading1">
+        {% include '@atoms/text/headings/_heading.twig' with {
+          heading: testimonials_subheading1,
+          heading_level: testimonials_subheading1_level
+        } %}
+      </div>
+    </div>
+    <div {{ bem('testimonials_subheading2', [], base_class) }}>
+      <div class="testimonials_subheading2">
+        {% include '@atoms/text/headings/_heading.twig' with {
+          heading: testimonials_subheading2,
+          heading_level: testimonials_subheading2_level
+        } %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

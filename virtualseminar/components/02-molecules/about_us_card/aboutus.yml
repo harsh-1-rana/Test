@@ -1,0 +1,9 @@
+aboutus_card_heading: What Is Virtual seminar
+# aboutus_card_level: 1
+aboutus_paragraph_content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor purus, suscipit a accumsan quis, blandit a dolor. Morbi quis purus at ipsum tristique varius sit amet id odio.
+ul_items:
+  - content: Lorem ipsum
+  - content: Morbi quis purus at ipsum
+  - content: Aliquam tortor purus
+  - content: Suscipit a accumsan quis
+  - content: Blandit a dolor

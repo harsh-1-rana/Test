@@ -1,0 +1,10 @@
+{% embed '@molecules/important_services/services.twig'
+  with {
+    service_img_src: file_url(paragraph.field_imp_service_img.entity.fileuri),
+    service_link_content: paragraph.field_services_link.value[0].title,
+    service_link_url: paragraph.field_services_link.value[0].uri,
+    service_paragraph_content: paragraph.field_body.value
+  }
+%}
+
+{% endembed %}

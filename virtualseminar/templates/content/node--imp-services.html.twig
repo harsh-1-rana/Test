@@ -1,0 +1,7 @@
+{% embed "@organisms/service organism/service_org.twig" with {
+    serviceorg_heading: node.field_service_title.value,
+} %}
+{% block services %}
+{{ content.field_imp_service_para }}
+{% endblock %}
+{% endembed %}

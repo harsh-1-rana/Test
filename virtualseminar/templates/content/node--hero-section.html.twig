@@ -1,0 +1,9 @@
+{% embed "@molecules/hero_section/hero_section.twig" with {
+  hero_main_heading: node.field_title.value,
+  hero_sub_heading: content.body,
+  hero_button_content: node.field_button.value[0].title,
+  hero_button_url: node.field_button.value[0].uri,
+} %}
+{% endembed %}
+{# {{ ((node.field_button.value[0].uri)) }}
+{{ dd((node.field_button.value)) }} #}

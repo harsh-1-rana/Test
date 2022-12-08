@@ -1,0 +1,8 @@
+{% embed '@molecules/accordian/accordian.twig'
+  with {
+    accordian_heading: paragraph.field_accordian_title.value,
+    accordian_paragraph_content: paragraph.field_accordian_body.value
+  }
+%}
+
+{% endembed %}

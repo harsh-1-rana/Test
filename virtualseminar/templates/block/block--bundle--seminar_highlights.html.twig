@@ -1,0 +1,10 @@
+{% embed '@molecules/seminar_highlights/seminar_highlights.twig'
+  with {
+    seminar_heading: content.field_title[0],
+    seminar_paragraph_content: content.body,
+    seminar_img_src: file_url(content.field_image['#items'].entity.fileuri)
+  }
+%}
+
+{% endembed %}
+{# {{ (dd(file_url(content.field_image['#items'].entity.fileuri))) }} #}

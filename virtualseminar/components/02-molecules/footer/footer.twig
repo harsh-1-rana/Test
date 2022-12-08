@@ -1,0 +1,42 @@
+{% set foot_base_class = 'footer' %}
+<div class="site_foot">
+  <div {{ bem(foot_base_class) }}>
+    <div {{ bem('footer-wrapper', [], foot_base_class) }}>
+      <div {{ bem('footer-brand', [], foot_base_class) }}>
+        <div {{ bem('logo-image', [], foot_base_class) }}>
+          {% block image %}
+            {% include '@atoms/images/image/_image.twig' with {
+              image_alt: foot_logo_image_alt,
+              image_src: foot_logo_src
+            } %}
+          {% endblock %}
+        </div>
+        <div {{ bem('footer-heading', [], foot_base_class) }}>
+          {% include '@atoms/text/headings/_heading.twig' with {
+            heading: foot_heading
+          } %}
+        </div>
+      </div>
+      <div {{ bem('address', [], foot_base_class) }}>
+        {% include '@atoms/text/text/01-paragraph.twig' with {
+          paragraph_content: address_content
+        } %}
+      </div>
+    </div>
+    <div {{ bem('foot-item', [], foot_base_class) }}>
+      {% for link in footlinks %}
+        <div>
+          {% include '@atoms/links/link/link.twig' with {
+            link_url: link.foot_url,
+            link_content: link.foot_content
+          } %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="copyright">
+    {% include '@atoms/text/text/01-paragraph.twig' with {
+      paragraph_content: copyright_content
+    } %}
+  </div>
+</div>

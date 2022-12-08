@@ -1,0 +1,25 @@
+{% set clients_array = [] %}
+  {% for item in content.field_clients_image %}
+  {% if item['#item'] %}
+  {% set clients_img_src = file_url(item['#item'].entity.fileuri) %}
+  {# {% set img_alt = item['#alt'] %} #}
+  {% set clients_array = clients_array|merge([
+    {
+      'clients_img_src' : clients_img_src,
+    }
+  ]) %}
+  {% endif %}
+  {% endfor %}
+
+{# {{dd((content.field_clients_image.0['#item'].entity.fileuri))}}
+{{dd(file_url(content.field_clients_image['#items'][1].entity.fileuri))}} #}
+
+{% embed '@molecules/OurClients/clients.twig'
+  with {
+      clients_heading: content.field_clients_title[0],
+      client_images: clients_array,
+  }
+%}
+{% endembed %}
+
+{# {{ (dd(content.field_clients_image['#items'].entity)) }} #}

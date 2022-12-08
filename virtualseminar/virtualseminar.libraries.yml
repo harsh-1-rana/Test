@@ -1,0 +1,50 @@
+global:
+  css:
+    theme:
+      dist/css/style.css: {}
+
+main-menu:
+  js:
+    dist/js/02-molecules/menus/main-menu/main-menu.js: {}
+  dependencies:
+    - core/drupal
+
+slick:
+  js:
+    node_modules/slick-carousel/slick/slick.min.js: {}
+  css:
+    component:
+      node_modules/slick-carousel/slick/slick.css: {}
+      node_modules/slick-carousel/slick/slick-theme.css: {}
+  dependencies:
+    - core/jquery
+
+about_slider:
+  js:
+    dist/js/03-organisms/Aboutus/aboutus_org.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - virtualseminar/slick
+
+# IE 11 support for SVG use - disable if not needed.
+# See also components/01-atoms/images/icons/_icon.twig to remove attach_library.
+# sprite:
+#   js:
+#     components/01-atoms/images/icons/svgxuse.min.js:
+#       { attributes: { defer: true } }
+
+tabs:
+  js:
+    dist/js/02-molecules/tabs/tabs.js: {}
+  dependencies:
+    - core/drupal
+
+status:
+  js:
+    dist/js/02-molecules/status/status.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+

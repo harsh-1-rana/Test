@@ -1,0 +1,28 @@
+{% set footer_array = [] %}
+{% for item in content.field_footer_links %}
+  {% if item['#url'] %}
+    {% set foot_url = content.field_footer_links['#items'].value[0].uri %}
+    {% set foot_content = item['#title'] %}
+    {% set footer_array =
+      footer_array|merge(
+        [
+          {
+            foot_content: foot_content,
+            foot_url: foot_url
+          }
+        ]
+      )
+    %}
+  {% endif %}
+{% endfor %}
+{% embed '@molecules/footer/footer.twig'
+  with {
+    footlinks: footer_array,
+    foot_logo_src: file_url(content.field_footer_image['#items'].entity.fileuri),
+    foot_heading: content.field_footer_title.0,
+    address_content: content.body,
+    copyright_content: content.field_footer_bottom.0,	
+  }
+%}
+
+{% endembed %}

@@ -1,0 +1,25 @@
+aboutus_heading: About Us
+# aboutus_level: 2
+aboutus_bottom: Lorem ipsum dolor sit <a href="#">amet</a>
+# aboutus_bottom_level: 3
+about_img_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/s2.jpg
+about_img_alt: alt
+aboutus_org:
+  -
+    slider_heading: What Is Virtual seminar
+    # slider_heading_level: 1
+    aboutus_para: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor purus, suscipit a accumsan quis, blandit a dolor. Morbi quis purus at ipsum tristique varius sit amet id odio.
+    aboutus_items:
+      - content: Lorem ipsum
+      - content: Morbi quis purus at ipsum
+      - content: Aliquam tortor purus
+  -
+    slider_heading: Cover Over 5 Topics
+    # slider_heading_level: 1
+    aboutus_para: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor purus, suscipit a accumsan quis, blandit a dolor. Morbi quis purus at ipsum tristique varius sit amet id odio.
+    aboutus_items:
+      - content: Lorem ipsum
+      - content: Morbi quis purus at ipsum
+      - content: Aliquam tortor purus
+      - content: Suscipit a accumsan quis
+      - content: Blandit a dolor

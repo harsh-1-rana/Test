@@ -1,0 +1,103 @@
+.testimonials_container {
+  padding: 2rem 0 6rem 0;
+  max-width: 1110px;
+  margin: 0 auto;
+  text-align: center;
+
+  &__testimonial_main_heading {
+    .testimonial_heading {
+      font-size: 3rem;
+      color: #111;
+      font-weight: 700;
+      padding-bottom: 1rem;
+    }
+  }
+
+  &__testimonials_content_wrapper {
+    font-size: 1.25rem;
+    color: #111;
+    width: 815px;
+    margin: 0 auto;
+    line-height: 1.7;
+    padding-bottom: 1rem;
+  }
+
+  &__testimonials_subheading1 {
+    .testimonials_subheading1 {
+      font-size: 1.7rem;
+      color: #111;
+      font-weight: 700;
+      padding-bottom: 1rem;
+    }
+  }
+
+  &__testimonials_subheading2 {
+    .testimonials_subheading2 {
+      font-size: 1.1rem;
+      color: #a9a9a9;
+      font-weight: 700;
+    }
+  }
+}
+
+.my_testimonials {
+  background-color: #f8f8f8;
+}
+
+//media queries
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonials_container {
+    max-width: 920px;
+
+    &__testimonials_content_wrapper {
+      width: 700px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonials_container {
+    max-width: 670px;
+    padding-top: 10%;
+
+    &__testimonials_content_wrapper {
+      width: 540px;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .testimonials_container {
+    max-width: 500px;
+
+    &__testimonials_content_wrapper {
+      width: 510px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .testimonials_container {
+    max-width: 430px;
+    padding-top: 6rem;
+
+    &__testimonials_content_wrapper {
+      width: 370px;
+
+      p {
+        font-size: calc(1.0875rem + (1.25 - 1.0875) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc(1.4 * (1.0875rem + (1.25 - 1.0875) * ((100vw - 20rem) / (48 - 20))));
+      }
+    }
+
+    &__testimonial_main_heading {
+      .testimonial_heading {
+        font-size: calc(1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc(1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+        padding-top: 10%;
+        padding-bottom: 8%
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{% set base_class = 'service_org_container' %}
+<div {{ bem(base_class) }}>
+  <div {{ bem('serviceorg_heading', [], base_class) }}>
+    {% include '@atoms/text/headings/_heading.twig' with {
+      heading: serviceorg_heading
+    } %}
+  </div>
+  <div {{ bem('imp_services', [], base_class) }}>
+    {% block services %}
+      {% for item in serviceitems %}
+        {% include '@molecules/important_services/services.twig' with {
+          service_img_src: item.service_img_src,
+          service_img_alt: item.service_img_alt,
+          service_link_content: item.service_link_content,
+          service_link_url: item.service_link_url,
+          service_paragraph_content: item.service_paragraph_content
+        } %}
+      {% endfor %}
+    {% endblock %}
+  </div>
+</div>

@@ -1,0 +1,20 @@
+{% set base_class = 'video_container' %}
+
+{% block videosec %}
+  <div {{ bem(base_class) }}>
+    <div {{ bem('video_heading', [], base_class) }}>
+      {% include '@atoms/text/headings/_heading.twig' with {
+        heading: video_heading,
+      }%}
+    </div>
+    <div {{ bem('video_img', [], base_class) }}>
+      {% include '@atoms/images/image/_image.twig' with {
+        image_src: videoimage,
+        image_alt: videoimg_alt
+      } %}
+    </div>
+    <div {{ bem('video_link', [], base_class) }}>
+      {% include '@atoms/ourvideo/ourvideo.twig' %}
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% set list = [] %}
+{% for key, data in content.field_lists %}
+  {% if key >= 0 %}
+    {% set cont = content.field_lists[key]['#context'].value %}
+    {% set list =
+      list|merge(
+        [
+          {
+            content: cont
+          }
+        ]
+      )
+    %}
+  {% endif %}
+{% endfor %}
+{% embed '@molecules/about_us_card/aboutus.twig'
+  with {
+    aboutus_card_heading: content.field_title[0],
+    aboutus_card_level: '1',
+    aboutus_paragraph_content: content.field_para_body[0],
+    ul_items: list
+  }
+%}
+
+{% endembed %}

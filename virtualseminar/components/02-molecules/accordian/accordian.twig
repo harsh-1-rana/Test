@@ -1,0 +1,27 @@
+{% set base_class = 'accordian_container' %}
+{% set base_class1 = 'accordian_para' %}
+
+{% block accordiansec %}
+  <div class="accordian_wrapper">
+    <div {{ bem(base_class) }}>
+      <div {{ bem('accordian_heading', [], base_class) }}>
+        {% include '@atoms/text/headings/_heading.twig' with {
+          heading: accordian_heading,
+          heading_level: accordian_level
+        } %}
+      </div>
+      <div {{ bem('accordian_button', [], base_class) }}>
+        {% include '@atoms/buttons/button.twig' with {
+          button_content: accordian_button
+        } %}
+      </div>
+    </div>
+    <div {{ bem(base_class1) }}>
+      <div {{ bem('accordian_paragraph', [], base_class1) }}>
+        {% include '@atoms/text/text/01-paragraph.twig' with {
+          paragraph_content: accordian_paragraph_content
+        } %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

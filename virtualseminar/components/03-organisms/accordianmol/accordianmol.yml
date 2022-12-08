@@ -1,0 +1,28 @@
+accordianmol_heading: Questions
+# accordianmol_heading_level: 1
+accordianitems:
+  -
+    accordian_heading: What is Virtual Seminar
+    # accordian_level: 1
+    accordian_button: +
+    accordian_paragraph_content: Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptas explicabo molestiae tempore natus velit sed aliquam ut! Culpa asperiores, error ullam qui! Commodi nobis distinctio aperiam totam perferendis quas.
+  -
+    accordian_heading: Which payment method do you accept
+    # accordian_level: 1
+    accordian_button: +
+    accordian_paragraph_content: Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Id ullam sint repellat! Aliquid, odio magni ab rem eos odit, deleniti laboriosam voluptas inventore, iste suscipit sed ipsa! Ut aliquam, alias.
+  -
+    accordian_heading: How do you manage to make the seminar exciting
+    # accordian_level: 1
+    accordian_button: +
+    accordian_paragraph_content: Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Illum sed exercitationem reiciendis suscipit sunt enim, tempore ex debitis fuga dolorum aliquid ea libero atque optio. Molestiae ullam at, quasi alias.
+  -
+    accordian_heading: Lorem Ipsum dolor sit amet?
+    # accordian_level: 1
+    accordian_button: +
+    accordian_paragraph_content: Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Voluptate veniam accusamus eaque recusandae modi velit a praesentium ipsa animi facilis repellendus magnam aliquam, numquam debitis fuga laboriosam, quos aut adipisci.
+  -
+    accordian_heading: What if I need to cancel my booking at late notice?
+    # accordian_level: 1
+    accordian_button: +
+    accordian_paragraph_content: Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem, non. Sunt aliquam a odio, sapiente corporis necessitatibus quia assumenda expedita tempora error non deserunt beatae ex, eaque voluptatem quas.

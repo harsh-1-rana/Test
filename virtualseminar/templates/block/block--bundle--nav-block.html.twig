@@ -1,0 +1,28 @@
+{% set nav_array = [] %}
+{% for item in content.field_nav_links %}
+  {% if item['#url'] %}
+    {% set nav_url = content.field_nav_links['#items'].value[0].uri %}
+    {% set nav_content = item['#title'] %}
+    {% set nav_array =
+      nav_array|merge(
+        [
+          {
+            nav_content: nav_content,
+            nav_url: nav_url
+          }
+        ]
+      )
+    %}
+  {% endif %}
+{% endfor %}
+{% embed '@molecules/navbar/navbar.twig'
+  with {
+    nav_items: nav_array,
+    site_branding_src: file_url(content.field_nav_logo['#items'].entity.fileuri),
+    site_branding_content: content.field_nav_heading[0],
+    site_branding_url: (content.field_nav_heading['#items'].value[0].uri),
+    nav_button_content: content.field_nav_button.0['#title'],
+  }
+%}
+
+{% endembed %}

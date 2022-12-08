@@ -1,0 +1,9 @@
+{% embed "@organisms/Aboutus/aboutus_org.twig" with {
+    aboutus_heading: content.field_about_us_title.0,
+    aboutus_bottom: content.body,
+    about_img_src: file_url(content.field_para_image['#items'].entity.fileuri),
+} %}
+{% block aboutus %}
+{{ content.field_aboutus_paragraph }}
+{% endblock %}
+{% endembed %}

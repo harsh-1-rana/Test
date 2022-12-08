@@ -1,0 +1,41 @@
+{{ attach_library('virtualseminar/about_slider') }}
+
+{% set base_class = 'aboutus_slider_container' %}
+{% set base_class1 = 'aboutus_image' %}
+{% set wrapper_base_class = 'aboutus_wrapper' %}
+
+{% block aboutorgsec %}
+<div class="about_sec">
+  <div {{ bem(wrapper_base_class) }}>
+    <div {{ bem(base_class) }}>
+      <div {{ bem('aboutus_heading', [], base_class) }}>
+        {% include '@atoms/text/headings/_heading.twig' with {
+          heading: aboutus_heading
+        } %}
+      </div>
+      <div {{ bem('slider_content', [], base_class) }}>
+        {% block aboutus %}
+          {% for item in aboutus_org %}
+            {% include '@molecules/about_us_card/aboutus.twig' with {
+              aboutus_card_heading: item.slider_heading,
+              aboutus_paragraph_content: item.aboutus_para,
+              ul_items: item.aboutus_items
+            } %}
+          {% endfor %}
+        {% endblock %}
+      </div>
+      <div {{ bem('aboutus_bottom', [], base_class) }}>
+        {% include '@atoms/text/headings/_heading.twig' with {
+          heading: aboutus_bottom
+        } %}
+      </div>
+    </div>
+    <div {{ bem(base_class1) }}>
+      {% include '@atoms/images/image/_image.twig' with {
+        image_src: about_img_src,
+        image_alt: about_img_alt
+      } %}
+    </div>
+  </div>
+</div>
+{% endblock %}

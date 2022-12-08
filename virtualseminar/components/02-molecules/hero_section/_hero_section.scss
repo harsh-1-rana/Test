@@ -1,0 +1,163 @@
+.hero_container {
+  background: url(https://mobirise.com/extensions/seminarm4/seminar/assets/images/s1.jpg);
+  height: 720px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 37%;
+  position: relative;
+
+  &::before {
+    content: '';
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__hero_content_wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    top: 28%;
+  }
+
+  &__hero_heading {
+
+    .hero_heading {
+      font-size: 6.8rem;
+      color: black;
+      font-weight: 700;
+      line-height: 1.1;
+      font-style: normal;
+    }
+  }
+
+  &__hero_content {
+    z-index: 1;
+
+    .hero_body {
+      font-size: 1.7rem;
+      color: black;
+      font-weight: 700;
+      line-height: 1.5;
+      font-style: normal;
+
+      .text-long {
+        margin: 1em 0 1em;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+        background-image: linear-gradient(120deg, #ffc658 0%, #ffc658 100%);
+        background-size: 100% 30%;
+        background-position: 0 90%;
+        background-repeat: no-repeat;
+        transition: background-size 0.2s ease-in;
+
+        &:hover {
+          background-size: 100% 100%;
+        }
+      }
+    }
+  }
+
+  &__hero_button {
+    padding-top: 5%;
+
+    button {
+      height: 75px;
+      width: 225px;
+      background-color: #ffda00;
+      color: #171717;
+      font-weight: 700;
+      font-size: 1.25rem;
+      text-transform: none !important;
+
+      &:hover {
+        background-color: #ffe340;
+        color: #171717;
+      }
+    }
+  }
+}
+
+//media queries
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero_container__hero_content_wrapper {
+    max-width: 920px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero_container {
+    height: 900px;
+
+    &__hero_content_wrapper {
+      max-width: 670px;
+      top: 21%;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .hero_container__hero_content_wrapper {
+    max-width: 500px;
+    top: 19%;
+  }
+
+  .hero_container {
+    height: 980px;
+
+    &__hero_heading {
+      .hero_heading {
+        font-size: 6.8rem;
+        font-size: calc(3.03rem + (6.8 - 3.03) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc(1.4 * (3.03rem + (6.8 - 3.03) * ((100vw - 20rem) / (48 - 20))));
+      }
+    }
+    &__hero_content {
+      .hero_body {
+        font-size: calc( 1.245rem + (1.7 - 1.245) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc( 1.4 * (1.245rem + (1.7 - 1.245) * ((100vw - 20rem) / (48 - 20))));
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .hero_container__hero_content_wrapper {
+    padding: 3%;
+    top: 22%;
+  }
+
+  .hero_container {
+    height: 795px;
+
+    &__hero_heading {
+      .hero_heading {
+        font-size: calc(3.03rem + (6.8 - 3.03) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc(1.4 * (3.03rem + (6.8 - 3.03) * ((100vw - 20rem) / (48 - 20))));
+      }
+    }
+
+    &__hero_content {
+      .hero_body {
+        font-size: calc(1.245rem + (1.7 - 1.245) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc(1.4 * (1.245rem + (1.7 - 1.245) * ((100vw - 20rem) / (48 - 20))));
+        padding-bottom: 6%;
+      }
+    }
+
+    &__hero_button {
+      button {
+        font-size: calc(1.0875rem + (1.25 - 1.0875) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc(1.4 * (1.0875rem + (1.25 - 1.0875) * ((100vw - 20rem) / (48 - 20))));
+        height: 70px;
+        width: 200px;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{% set base_class = 'clients_container' %}
+
+{% block seminarsec %}
+<div class="our_clients">
+  <div {{ bem(base_class) }}>
+    <div {{ bem('clients_heading', [], base_class) }}>
+      {% include '@atoms/text/headings/_heading.twig' with {
+        heading: clients_heading
+      } %}
+    </div>
+
+    <div {{ bem('clients_images', [], base_class) }}>
+      {% for item in client_images %}
+        {% include '@atoms/images/image/_image.twig' with {
+          image_src: item.clients_img_src,
+          image_alt: item.clients_img_alt
+        } %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

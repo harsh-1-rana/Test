@@ -1,0 +1,18 @@
+clients_heading: Our Clients
+# clients_heading_level: 1
+client_images:
+  -
+    clients_img_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/1.png
+    clients_img_alt: alt
+  -
+    clients_img_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/2.png
+    clients_img_alt: alt
+  -
+    clients_img_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/3.png
+    clients_img_alt: alt
+  -
+    clients_img_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/4.png
+    clients_img_alt: alt
+  -
+    clients_img_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/5.png
+    clients_img_alt: alt

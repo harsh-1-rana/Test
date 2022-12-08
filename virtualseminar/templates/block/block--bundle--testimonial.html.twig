@@ -1,0 +1,9 @@
+{% embed '@molecules/testimonials/testimonials.twig'
+  with {
+    testimonials_mainheading: content.field_testimonial_title[0],
+    testimonials_paragraph_content: content.body,
+    testimonials_subheading1: content.field_name[0],
+    testimonials_subheading2: content.field_designation[0]
+  }
+%}
+{% endembed %}

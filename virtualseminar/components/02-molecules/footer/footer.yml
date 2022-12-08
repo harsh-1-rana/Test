@@ -1,0 +1,24 @@
+foot_logo_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/logo.png
+foot_logo_image_alt: footer logo image
+foot_heading: Virtual Seminar
+address_content: Address <br>
+                 1234 Street Name <br>
+                 City, AA 99999
+copyright_content: © Copyright 2025
+footlinks:
+  - foot_url: '#'
+    foot_content: Help
+  - foot_url: '#'
+    foot_content: Contacts 
+  - foot_url: '#'
+    foot_content: About us
+  - foot_url: '#'
+    foot_content: Workshop  
+  - foot_url: '#'
+    foot_content: Support
+  - foot_url: '#'
+    foot_content: Method
+  - foot_url: '#'
+    foot_content: Blog
+  - foot_url: '#'
+    foot_content: Supply 

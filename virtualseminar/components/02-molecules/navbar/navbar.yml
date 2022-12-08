@@ -1,0 +1,16 @@
+site_branding_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/logo.png
+site_branding_alt: site branding image
+site_branding_url: '#'
+site_branding_content: 'Virtual Seminar'
+nav_items:
+  -
+    nav_url: '#'
+    nav_content: About us
+  -
+    nav_url: '#'
+    nav_content: Services
+  -
+    nav_url: '#'
+    nav_content: Contacts
+nav_button_content: Book a call
+nav_button_url: '#'

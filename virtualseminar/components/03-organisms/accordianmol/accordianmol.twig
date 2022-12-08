@@ -1,0 +1,26 @@
+{% set base_class = 'accordianmol_container' %}
+{% set wrapper_base class = 'overlay' %}
+<div {{ bem('overlay', [], wrapper_base_class) }}>
+    <div class="main_wrapper">
+      <div class="my_accordian">
+        <div class="main_heading">
+            {% include "@atoms/text/headings/_heading.twig" with {
+            heading: accordianmol_heading,
+            }%}
+        </div>
+        <div {{ bem(base_class) }}>
+            <div {{ bem('accordian_content', [], base_class) }}>
+                {% for item in accordianitems %}
+                    {% include "@molecules/accordian/accordian.twig" with {
+                    accordian_heading: item.accordian_heading,
+                    accordian_level: item.accordian_level,
+                    accordian_button: item.accordian_button,
+                    accordian_paragraph_content: item.accordian_paragraph_content,
+                    }%}
+                {% endfor %}
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+{# {% endblock %} #}

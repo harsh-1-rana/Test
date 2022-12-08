@@ -1,0 +1,30 @@
+{% set base_class = 'hero_container' %}
+
+{% block herosec %}
+  <div {{ bem(base_class) }}>
+    <div {{ bem('hero_content_wrapper', [], base_class) }}>
+      <div {{ bem('hero_heading', [], base_class) }}>
+        <div class="hero_heading">
+          {% include '@atoms/text/headings/_heading.twig' with {
+            heading: hero_main_heading
+          } %}
+        </div>
+      </div>
+      <div {{ bem('hero_content', [], base_class) }}>
+        <div class="hero_body">
+          {% include '@atoms/text/headings/_heading.twig' with {
+            heading: hero_sub_heading
+          } %}
+        </div>
+      </div>
+      <div {{ bem('hero_button', [], base_class) }}>
+        <div class="hero_button">
+          {% include '@atoms/buttons/button.twig' with {
+            button_content: hero_button_content,
+            button_url: hero_button_url
+          } %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

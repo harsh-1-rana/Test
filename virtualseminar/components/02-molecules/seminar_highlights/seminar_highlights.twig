@@ -1,0 +1,32 @@
+{% set base_class = 'seminar_container' %}
+
+{% block seminarsec %}
+<div class="my_seminar">
+  <div {{ bem(base_class) }}>
+    <div {{ bem('seminar_image_wrapper', [], base_class) }}>
+      {% include '@atoms/images/image/_image.twig' with {
+        image_src: seminar_img_src,
+        image_alt: seminar_img_alt
+      } %}
+    </div>
+
+    <div {{ bem('seminar_content_wrapper', [], base_class) }}>
+      <div class="seminar_heading">
+        {% include '@atoms/text/headings/_heading.twig' with {
+          heading: seminar_heading
+        } %}
+      </div>
+      <div class="seminar_body">
+        {% include '@atoms/text/text/01-paragraph.twig' with {
+          paragraph_content: seminar_paragraph_content
+        } %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{# <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+  <img class="card-img-top img-fluid"
+    src="http://img.youtube.com/vi/_sI_Ps7JSEk/mqdefault.jpg" />
+</a> #}

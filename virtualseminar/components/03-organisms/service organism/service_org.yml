@@ -1,0 +1,27 @@
+serviceorg_heading: Important Services
+# serviceorg_heading_level: 1
+serviceitems:
+  -
+    service_img_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/s3.jpg
+    service_img_alt: alt text
+    service_link_content: Simple
+    service_link_url: #
+    service_paragraph_content: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed doloribus illo non quaerat consequuntur? Neque est obcaecati ex blanditiis inventore!
+  -
+    service_img_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/s4.jpg
+    service_img_alt: alt text
+    service_link_content: Promotion
+    service_link_url: #
+    service_paragraph_content: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed doloribus illo non quaerat consequuntur? Neque est obcaecati ex blanditiis inventore!
+  -
+    service_img_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/s5.jpg
+    service_img_alt: alt text
+    service_link_content: Designing
+    service_link_url: #
+    service_paragraph_content: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed doloribus illo non quaerat consequuntur? Neque est obcaecati ex blanditiis inventore!
+  -
+    service_img_src: https://mobirise.com/extensions/seminarm4/seminar/assets/images/s6.jpg
+    service_img_alt: alt text
+    service_link_content: Testing
+    service_link_url: #
+    service_paragraph_content: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed doloribus illo non quaerat consequuntur? Neque est obcaecati ex blanditiis inventore!
