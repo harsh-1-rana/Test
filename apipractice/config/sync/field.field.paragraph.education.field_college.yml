@@ -1,0 +1,19 @@
+uuid: 55a04e4e-1e4e-4307-806c-bef3e3e16739
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_college
+    - paragraphs.paragraphs_type.education
+id: paragraph.education.field_college
+field_name: field_college
+entity_type: paragraph
+bundle: education
+label: College
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

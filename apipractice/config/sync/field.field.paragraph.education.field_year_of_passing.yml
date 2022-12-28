@@ -1,0 +1,21 @@
+uuid: 0203aaff-48e4-4d19-a293-092aba5cc152
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_year_of_passing
+    - paragraphs.paragraphs_type.education
+  module:
+    - datetime
+id: paragraph.education.field_year_of_passing
+field_name: field_year_of_passing
+entity_type: paragraph
+bundle: education
+label: 'Year of passing'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

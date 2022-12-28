@@ -1,0 +1,21 @@
+uuid: f8d29439-7927-4ca4-bf6c-29797966139b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.exam.field_exam_name
+    - paragraphs.paragraphs_type.exam
+id: paragraph.exam.default
+targetEntityType: paragraph
+bundle: exam
+mode: default
+content:
+  field_exam_name:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

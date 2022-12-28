@@ -1,0 +1,29 @@
+uuid: cc844f79-9d7a-4574-a959-845962908c15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_exam_name
+    - paragraphs.paragraphs_type.exam
+    - taxonomy.vocabulary.tests
+id: paragraph.exam.field_exam_name
+field_name: field_exam_name
+entity_type: paragraph
+bundle: exam
+label: 'Exam name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tests: tests
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

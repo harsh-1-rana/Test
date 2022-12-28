@@ -1,0 +1,29 @@
+uuid: 87e8e066-545c-4b34-96d4-4bb76defe99a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_testing
+    - paragraphs.paragraphs_type.about
+    - taxonomy.vocabulary.test
+id: paragraph.about.field_testing
+field_name: field_testing
+entity_type: paragraph
+bundle: about
+label: testing
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      test: test
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,37 @@
+uuid: 29ed0397-f777-457f-98ee-26a907b01233
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_documents
+    - paragraphs.paragraphs_type.documents
+    - profile.type.students
+  module:
+    - entity_reference_revisions
+id: profile.students.field_documents
+field_name: field_documents
+entity_type: profile
+bundle: students
+label: Documents
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      documents: documents
+    negate: 0
+    target_bundles_drag_drop:
+      about:
+        weight: 4
+        enabled: false
+      documents:
+        weight: 5
+        enabled: true
+      education:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

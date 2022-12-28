@@ -1,0 +1,123 @@
+uuid: 0ad23e79-bb62-4fa4-a07c-0130379fe539
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.article
+    - node.type.page
+    - taxonomy.vocabulary.tags
+    - user.role.administrator
+    - user.role.authenticated
+    - user.role.content_editor
+    - user.role.creater
+  module:
+    - block_content
+    - comment
+    - contact
+    - field_ui
+    - file
+    - filter
+    - image
+    - masquerade
+    - node
+    - paragraphs
+    - path
+    - pathauto
+    - profile
+    - search
+    - system
+    - taxonomy
+id: creater
+label: creater
+weight: 4
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'access files overview'
+  - 'access profile overview'
+  - 'access taxonomy overview'
+  - 'administer block_content fields'
+  - 'administer block_content form display'
+  - 'administer comment fields'
+  - 'administer comment form display'
+  - 'administer contact_message fields'
+  - 'administer contact_message form display'
+  - 'administer content types'
+  - 'administer display modes'
+  - 'administer filters'
+  - 'administer image styles'
+  - 'administer node fields'
+  - 'administer node form display'
+  - 'administer nodes'
+  - 'administer paragraph fields'
+  - 'administer paragraph form display'
+  - 'administer paragraphs settings'
+  - 'administer paragraphs types'
+  - 'administer pathauto'
+  - 'administer profile'
+  - 'administer profile display'
+  - 'administer profile fields'
+  - 'administer profile form display'
+  - 'administer profile types'
+  - 'administer search'
+  - 'administer taxonomy'
+  - 'administer taxonomy_term display'
+  - 'administer taxonomy_term fields'
+  - 'administer taxonomy_term form display'
+  - 'administer url aliases'
+  - 'administer user display'
+  - 'administer user fields'
+  - 'administer user form display'
+  - 'bypass node access'
+  - 'create article content'
+  - 'create page content'
+  - 'create students profile'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any page content'
+  - 'delete any students profile'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete own students profile'
+  - 'delete page revisions'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit behavior plugin settings'
+  - 'edit own article content'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'masquerade as administrator'
+  - 'masquerade as any user'
+  - 'masquerade as authenticated'
+  - 'masquerade as content_editor'
+  - 'masquerade as creater'
+  - 'masquerade as super user'
+  - 'notify of path changes'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'search content'
+  - 'update any students profile'
+  - 'update own students profile'
+  - 'use advanced search'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view all revisions'
+  - 'view any profile'
+  - 'view any students profile'
+  - 'view article revisions'
+  - 'view own profile'
+  - 'view own students profile'
+  - 'view own unpublished content'
+  - 'view own unpublished profile'
+  - 'view page revisions'
+  - 'view unpublished paragraphs'

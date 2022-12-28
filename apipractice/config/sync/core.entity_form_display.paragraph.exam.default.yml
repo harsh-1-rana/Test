@@ -1,0 +1,25 @@
+uuid: 59ef0e08-b8d5-4e6c-b092-84a1e57dffe6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.exam.field_exam_name
+    - paragraphs.paragraphs_type.exam
+id: paragraph.exam.default
+targetEntityType: paragraph
+bundle: exam
+mode: default
+content:
+  field_exam_name:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

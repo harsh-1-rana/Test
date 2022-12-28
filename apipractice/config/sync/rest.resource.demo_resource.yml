@@ -1,0 +1,18 @@
+uuid: 52d84d66-4e30-4199-bf63-ba262eb16685
+langcode: en
+status: true
+dependencies:
+  module:
+    - apitask
+    - serialization
+    - user
+id: demo_resource
+plugin_id: demo_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

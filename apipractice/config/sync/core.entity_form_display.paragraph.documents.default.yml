@@ -1,0 +1,41 @@
+uuid: fc05b6d7-921f-463f-8871-b1ad272765c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.documents.field_doc_type
+    - field.field.paragraph.documents.field_file
+    - field.field.paragraph.documents.field_year_of_expiry
+    - paragraphs.paragraphs_type.documents
+  module:
+    - file
+id: paragraph.documents.default
+targetEntityType: paragraph
+bundle: documents
+mode: default
+content:
+  field_doc_type:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_file:
+    type: file_generic
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_year_of_expiry:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

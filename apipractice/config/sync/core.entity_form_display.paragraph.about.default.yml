@@ -1,0 +1,64 @@
+uuid: a75efc3b-6841-43ae-89cc-8735a60071a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about.field_address
+    - field.field.paragraph.about.field_bio
+    - field.field.paragraph.about.field_dob
+    - field.field.paragraph.about.field_name
+    - field.field.paragraph.about.field_testing
+    - paragraphs.paragraphs_type.about
+  module:
+    - datetime
+id: paragraph.about.default
+targetEntityType: paragraph
+bundle: about
+mode: default
+content:
+  field_address:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bio:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_dob:
+    type: datetime_datelist
+    weight: 3
+    region: content
+    settings:
+      increment: 15
+      date_order: DMY
+      time_type: none
+    third_party_settings: {  }
+  field_name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_testing:
+    type: entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

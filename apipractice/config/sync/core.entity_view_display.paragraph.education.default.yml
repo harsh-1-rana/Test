@@ -1,0 +1,52 @@
+uuid: 2f8d080f-d205-4fbb-97f2-3b13fa1ef920
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.education.field_college
+    - field.field.paragraph.education.field_degree
+    - field.field.paragraph.education.field_documents
+    - field.field.paragraph.education.field_year_of_passing
+    - paragraphs.paragraphs_type.education
+  module:
+    - datetime
+    - file
+id: paragraph.education.default
+targetEntityType: paragraph
+bundle: education
+mode: default
+content:
+  field_college:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_degree:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_documents:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_year_of_passing:
+    type: datetime_custom
+    label: above
+    settings:
+      timezone_override: ''
+      date_format: Y-m-d
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

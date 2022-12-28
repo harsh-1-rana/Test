@@ -1,0 +1,10 @@
+uuid: d6c538ff-9f1d-4b78-a2f5-3590e6e36717
+langcode: en
+status: true
+dependencies: {  }
+id: exam
+label: Exam
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

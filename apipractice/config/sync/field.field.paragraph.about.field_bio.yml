@@ -1,0 +1,19 @@
+uuid: 2b9293fa-8bef-43bc-a6e5-fbe298658752
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bio
+    - paragraphs.paragraphs_type.about
+id: paragraph.about.field_bio
+field_name: field_bio
+entity_type: paragraph
+bundle: about
+label: Bio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

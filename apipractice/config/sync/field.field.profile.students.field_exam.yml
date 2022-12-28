@@ -1,0 +1,40 @@
+uuid: ee913058-b6ed-4616-a0b7-b941536e7d31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_exam
+    - paragraphs.paragraphs_type.exam
+    - profile.type.students
+  module:
+    - entity_reference_revisions
+id: profile.students.field_exam
+field_name: field_exam
+entity_type: profile
+bundle: students
+label: exam
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      exam: exam
+    negate: 0
+    target_bundles_drag_drop:
+      about:
+        weight: 5
+        enabled: false
+      documents:
+        weight: 6
+        enabled: false
+      education:
+        weight: 7
+        enabled: false
+      exam:
+        weight: 8
+        enabled: true
+field_type: entity_reference_revisions

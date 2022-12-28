@@ -1,0 +1,23 @@
+uuid: 341466c3-b7fe-47e1-b321-55d39f3285e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_year_of_expiry
+    - paragraphs.paragraphs_type.documents
+id: paragraph.documents.field_year_of_expiry
+field_name: field_year_of_expiry
+entity_type: paragraph
+bundle: documents
+label: 'Year of expiry'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

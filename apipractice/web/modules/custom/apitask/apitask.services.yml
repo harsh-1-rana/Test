@@ -1,0 +1,11 @@
+services:
+  apitask.about_service:
+    class: Drupal\apitask\services\AboutService
+  apitask.education_service:
+    class: Drupal\apitask\services\EducationService
+  apitask.doc_service:
+    class: Drupal\apitask\services\DocService
+  apitask.user_service:
+    class: Drupal\apitask\services\UserService
+  apitask.test_service:
+    class: Drupal\apitask\services\TestService

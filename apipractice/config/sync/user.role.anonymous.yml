@@ -1,0 +1,37 @@
+uuid: c12b4dc0-4fcb-4419-9cbb-f7c1ec748d6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+    - rest.resource.demo_resource
+  module:
+    - comment
+    - contact
+    - filter
+    - profile
+    - rest
+    - search
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'administer rest resources'
+  - 'create students profile'
+  - 'delete own students profile'
+  - 'restful get demo_resource'
+  - 'restful post demo_resource'
+  - 'search content'
+  - 'update own students profile'
+  - 'use text format restricted_html'
+  - 'view any profile'
+  - 'view any students profile'
+  - 'view own profile'
+  - 'view own students profile'
