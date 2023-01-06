@@ -1,0 +1,7 @@
+services:
+  csvtask.create_college_service:
+    class: Drupal\csvtask\Services\CreateNode
+  csvtask.validate_college_service:
+    class: Drupal\csvtask\Services\Validate
+  csvtask.update_college_service:
+    class: Drupal\csvtask\Services\Update

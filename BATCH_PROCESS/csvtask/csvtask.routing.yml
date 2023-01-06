@@ -1,0 +1,7 @@
+csvtask.myroute:
+  path: '/csvimporter'
+  defaults:
+    _controller: '\Drupal\csvtask\Controller\ImportController::content'
+    _title: 'CSVIMPORTER'
+  requirements:
+    _permission: 'access content'

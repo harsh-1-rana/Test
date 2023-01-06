@@ -1,0 +1,5 @@
+name: CSVTASK
+description: Helps to import csv files with batch
+package: custom
+type: module
+core_version_requirement: ^9.2 || ^10
