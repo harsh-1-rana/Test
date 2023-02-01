@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To DO List</title>
+  <link rel="stylesheet" href="task1.css">
+
+</head>
+
+<body>
+  <main class="todoapp">
+    <section class="sec1">
+      <h1 class="heading">What's up, Harsh</h1>
+    </section>
+
+    <section class="sec2">
+      <h2 id="create_todo">CREATE A TODO</h2>
+      <div class="message">
+
+      </div>
+      <form class="todo_form" id="todo_form">
+        <h4>What's on your todo list</h4>
+        <input type="text" name="list_value" id="list_value" placeholder="e.g.make a video" />
+
+        <h4>Pick a category</h4>
+        <div class="options">
+          <label>
+            <input type="radio" name="category" id="business" value="business" />
+            <span class=" bubble business"></span>
+            <div>BUSINESS</div>
+          </label>
+
+          <label>
+            <input type="radio" name="category" id="personal" value="personal" />
+            <span class="bubble personal"></span>
+            <div>PERSONAL</div>
+          </label>
+        </div>
+
+        <input type="submit" value="Add todo" id="add_todo" />
+      </form>
+    </section>
+
+    <section class="my_todo_list">
+      <h4>TODO LIST</h4>
+      <div class="list" id="list">
+        <div class="list_items" id="list_items">
+          <label>
+            <input type="checkbox" />
+            <span class="business"></span>
+          </label>
+
+          <div class="list_content_wrapper">
+            <input type="text" value="Read Javascript" class="list_content" />
+          </div>
+
+          <div class="actions">
+            <button class="edit" id="edit">Edit</button>
+            <button class="delete" id="delete">Delete</button>
+          </div>
+
+          <label>
+            <input type="checkbox" />
+            <span class="personal"></span>
+          </label>
+
+          <div class="list_content">
+            <input type="text" value="play cricket" readonly />
+          </div>
+
+          <div class="actions">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="pagination-container">
+      <button class="pagination-button" id="prev-button" title="Previous page" aria-label="Previous page">
+        &lt;
+      </button>
+      
+      <div id="pagination-numbers">
+      </div>
+      
+      <button class="pagination-button" id="next-button" title="Next page" aria-label="Next page">
+        &gt;
+      </button>
+    </nav>
+
+  </main>
+  <script src="task1.js"></script>
+  <script src="pagination.js"></script>
+</body>
+
+</html>
